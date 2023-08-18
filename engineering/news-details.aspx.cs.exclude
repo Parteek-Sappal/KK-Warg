@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Collections;
+using Microsoft.VisualBasic;
+using System.Web.UI.HtmlControls;
+using System.Configuration;
+
+public partial class news_details : System.Web.UI.Page
+{
+    mainclass clsm = new mainclass();
+    Hashtable parameters = new Hashtable();
+    int collegeid = Convert.ToInt16(ConfigurationManager.AppSettings["collegeid"]);
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            BindNewsDetail();
+        }
+    }
+    private void BindNewsDetail()
+    {
+        string strsql;
+
+        lblrelatedheading.Text = "Related events";
+        parameters.Clear();
+        parameters.Add("@collegeid", collegeid);
+        parameters.Add("@deptid",Conversion.Val(Request.QueryString["deptid"]));
+        parameters.Add("@eventsid", Conversion.Val(Request.QueryString["eventsid"]));
+        strsql="select top 1 e.eventsid,eventstitle,eventsdate,shortdesc,eventsdesc,uploadevents from events e inner join map_institute_happenings c on e.eventsid=c.eventsid  where e.eventsid=@eventsid and status=1 and c.deptid=@deptid";
+        clsm.repeaterDatashow_Parameter(rptmainnews,strsql, parameters);
+        clsm.repeaterDatashow_Parameter(rptothernews, "select top 3 e.eventsid,eventstitle,shortdesc,EventsDesc,uploadevents,Eventsdate,e.displayorder,case when colorcode<>'FFFFFF' then 'background-color:#' + colorcode else '' end  colorcode from events e inner join map_institute_happenings c on e.eventsid=c.eventsid  where c.deptid=@deptid and status=1 and e.eventsid<>@eventsid and c.collageid=@collegeid order by Eventsdate desc", parameters);
+
+    }
+    protected void rptothernews_OnItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        Literal lituploadevents = (Literal)e.Item.FindControl("lituploadevents");
+        HtmlContainerControl divwithimage = (HtmlContainerControl)e.Item.FindControl("divwithimage");
+        HtmlContainerControl divwithoutimage = (HtmlContainerControl)e.Item.FindControl("divwithoutimage");
+
+        if (lituploadevents.Text!="")
+        {
+            divwithimage.Visible=true;
+            divwithoutimage.Visible=false;
+        }
+        else
+        {
+            divwithoutimage.Visible=true;
+            divwithimage.Visible=false;
+        }
+    }
+}

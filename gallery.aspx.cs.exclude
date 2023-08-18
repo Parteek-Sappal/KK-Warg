@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Collections;
+using Microsoft.VisualBasic;
+using System.Web.UI.HtmlControls;
+
+public partial class gallery : System.Web.UI.Page
+{
+    mainclass clsm = new mainclass();
+    Hashtable parameters = new Hashtable();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            DataBind();
+        }
+    }
+    private void DataBind()
+    {
+        string strsql;
+        parameters.Clear();
+        parameters.Add("@typeid", Conversion.Val(Request.QueryString["typeid"]));
+        strsql="select typeid,albumid,albumtitle,AlbumDesc,uploadaimage from album where Status=1 ";
+        if (Conversion.Val(Request.QueryString["typeid"]) != 0)
+        {
+            strsql += " and typeid=@typeid ";
+        }
+        strsql += " order by displayorder";
+        clsm.repeaterDatashow_Parameter(rptgallery,strsql , parameters);
+
+        ankall.HRef = "/gallery.aspx?typeid=0";
+        ankphoto.HRef = "/gallery.aspx?typeid=1";
+        ankvideo.HRef = "/gallery.aspx?typeid=2";
+        if ((Conversion.Val(Request.QueryString["typeid"]) == 0))
+        {
+            ankall.Attributes.Add("class", "active");
+        }
+        if ((Conversion.Val(Request.QueryString["typeid"]) == 1))
+        {
+            ankphoto.Attributes.Add("class", "active");
+        }
+        if ((Conversion.Val(Request.QueryString["typeid"]) == 2))
+        {
+            ankvideo.Attributes.Add("class", "active");
+        }
+
+    }
+    protected void rptgallery_OnItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        if (e.Item.ItemType == ListItemType.Item | e.Item.ItemType == ListItemType.AlternatingItem)
+        {
+            Label lblcnt = (Label)e.Item.FindControl("lblcnt");
+            Literal littypeid = (Literal)e.Item.FindControl("littypeid");
+            Literal litalbumid = (Literal)e.Item.FindControl("litalbumid");
+            HtmlAnchor ank = (HtmlAnchor)e.Item.FindControl("ank");
+
+            parameters.Clear();
+            parameters.Add("@albumid", Conversion.Val(litalbumid.Text));
+            if (Conversion.Val(littypeid.Text) == 1)
+            {
+                lblcnt.Text = clsm.SendValue_Parameter("select count(*)cnt from albumphoto where albumid=@albumid and status=1", parameters).ToString()+" Photos";
+                ank.HRef = "/gallery-details-image.aspx?albumid=" + Conversion.Val(litalbumid.Text);
+                ank.Attributes.Add("class", "gallery-thumb image");
+            }
+            else if (Conversion.Val(littypeid.Text) == 2)
+            {
+                lblcnt.Text = clsm.SendValue_Parameter("select count(*)cnt from vedio where albumid=@albumid and status=1", parameters).ToString()+" Videos";
+                ank.HRef = "/gallery-details-video.aspx?albumid=" + Conversion.Val(litalbumid.Text);
+                ank.Attributes.Add("class", "gallery-thumb video");
+            }
+
+        }
+    }
+}

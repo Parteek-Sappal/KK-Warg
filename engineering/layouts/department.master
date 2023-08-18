@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="department.master.cs" Inherits="engineering_layouts_inner" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/engineering/usercontrols/mainmenu.ascx" TagName="mainmenu" TagPrefix="uc1" %>
+<%@ Register Src="~/engineering/usercontrols/hamburger.ascx" TagName="hamburger" TagPrefix="uc2" %>
+<%@ Register Src="~/engineering/usercontrols/seosection.ascx" TagName="seosection" TagPrefix="uc3" %>
+<%@ Register Src="~/engineering/usercontrols/footermobile.ascx" TagName="footermobile" TagPrefix="uc4" %>
+<%@ Register Src="~/engineering/usercontrols/footer.ascx" TagName="footer" TagPrefix="uc5" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">    
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <uc3:seosection ID="seosection1" runat="server" />
+    <link rel="stylesheet" type="text/css" href="/engineering/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="/engineering/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/inner-page.css">
+    <link rel="stylesheet" type="text/css" href="/engineering/css/inner-responsive.css">
+    <link href="/css/dynamic.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server" ScriptMode="Release">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Name="MicrosoftAjax.js" />
+                <asp:ScriptReference Name="MicrosoftAjaxWebForms.js" />
+                <asp:ScriptReference Name="Common.Common.js" Assembly="AjaxControlToolkit" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+ <uc1:mainmenu ID="mainmenu1" runat="server" />
+ <uc2:hamburger ID="hamburger1" runat="server" />   
+ <main>
+    <section class="inner-title">
+            <div class="container">
+                <div class="section-heading text-center">
+                  <h6 class="top-heading">Department of</h6>
+                    <h1 class="section-title"> <asp:Literal ID="lititle" runat="server"></asp:Literal></h1>
+                </div>
+            </div>
+        </section>
+            <section class="top-section pb-0 inner-header top-sticky" id="innermenu" runat="server" visible="false">
+            <div class="container max-content-lg">
+                <ul class="list-unstyled mb-0">
+                   <asp:Repeater ID="rptinnermenu" runat="server" OnItemDataBound="rptinnermenu_ItemDataBound">
+                   <ItemTemplate>
+                      <asp:Literal ID="litpageid" runat="server" Visible="false" Text='<%#Eval("pageid")%>'></asp:Literal>
+                        <asp:Literal ID="litpageurl" runat="server" Visible="false" Text='<%#Eval("pageurl")%>'></asp:Literal>
+                        <asp:Literal ID="litrewriteurl" runat="server" Visible="false" Text='<%#Eval("rewriteurl")%>'></asp:Literal>
+                    <li><a id="ank" runat="server"><%#Eval("linkname")%></a></li>
+                   </ItemTemplate>
+                   </asp:Repeater>
+                </ul>
+            </div>
+        </section>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </main>
+        <uc5:footer ID="foooter1" runat="server" />
+        <uc4:footermobile ID="footermobile1" runat="server" />
+
+    <script src="/engineering/js/jquery-3.5.1.min.js"></script>
+    <script src="/engineering/js/bootstrap.bundle.min.js"></script>
+    <script src="/engineering/js/swiper-bundle.js"></script>
+    <script src="/engineering/js/main.js"></script>
+    <script src="/engineering/js/aos.js"></script>
+    </form>
+</body>
+</html>

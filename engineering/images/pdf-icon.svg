@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="38" viewBox="0 0 40 38">
+  <g id="Group_967" data-name="Group 967" transform="translate(-97)">
+    <rect id="Rectangle_396" data-name="Rectangle 396" width="40" height="38" rx="19" transform="translate(97)" fill="#ddebf100"/>
+    <g id="Component_6_4" data-name="Component 6 – 4" transform="translate(108.507 8)">
+      <g id="Path_14" data-name="Path 14" transform="translate(-404 -558.618)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M415.638,558.618H404v20.868h17.567V564.132Z" stroke="none"/>
+        <path d="M 405.5 560.1182861328125 L 405.5 577.9866333007812 L 420.0674743652344 577.9866333007812 L 420.0674743652344 564.78515625 L 415.0481567382812 560.1182861328125 L 405.5 560.1182861328125 M 404 558.6182861328125 L 415.6377563476562 558.6182861328125 L 421.5674743652344 564.1316528320312 L 421.5674743652344 579.4866333007812 L 404 579.4866333007812 L 404 558.6182861328125 Z" stroke="none" fill="#063142"/>
+      </g>
+      <path id="Path_15" data-name="Path 15" d="M431.161,558.618v4.561h4.906" transform="translate(-419.524 -557.666)" fill="none" stroke="#063142" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_16" data-name="Path 16" d="M415.731,574.333s1.386.257,0,3.555-2.438,5.874-3.325,6.75-1.773,1.134-1.884.618c-.222-1.906,4.378-3.091,5.375-3.349s6.041-1.8,6.872,0c.111.516-3.1.928-5.708-1.752C413.666,576.664,415.01,574.333,415.731,574.333Z" transform="translate(-407.724 -568.073)" fill="none" stroke="#063142" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

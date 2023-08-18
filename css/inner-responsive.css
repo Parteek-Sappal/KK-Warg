@@ -1,0 +1,164 @@
+@media (min-width: 575px){
+    .happening-thumb .happening-content{padding-inline: 1.5rem}
+    .work-with-us .bg-yellow{padding: 4rem; text-align: left;}
+    .send-cv a{font-size: 1.7rem;}
+    .award-box{padding-inline: 2.5rem}
+    .reference p strong{display: inline; margin-top: 0rem;}
+    .overview .row .row{--bs-gutter-x: 3.33rem}
+.bord-of-directors .row {--bs-gutter-x: 3rem;}
+}/*767px-css-end*/
+@media (min-width: 768px){
+    .inner-title .section-heading .section-title{font-size: 2.4rem;}
+    .featured-news .news-text .news-title{font-size: 2.3rem;}
+    .faculty_detail_top h2{font-size: 1.7rem;}
+    .course_name h3{font-size: 1.3rem;}
+    .college-list, .course_name{padding-inline: 2rem}
+    .course_content .row>.col-md-6:nth-child(odd) .college-list::after{top: 1rem; left: auto; width: 1px; height: calc(100% - 2rem); }
+    .courses_offered_top_sec blockquote{font-size: 1.7rem}
+    /* :is(.vision,.mission){margin-inline: -3rem} */
+     /* ================= About Us Overview start-UI14041994-28-07-2023 ================== */
+    .value-and-strength .value_stleft ul {margin-bottom: 0.9rem;}
+    section.top-section {padding-top: 3rem;}
+    .about-us-overview .container-sm-max {margin-top: 2rem;}
+    .top-section.about-us-overview{padding-bottom: 2rem;}
+    .mission ul li{padding-left: 1.5rem}
+    .mission ul li::after{height: 2px; width: 1.33rem; left: 1.5rem}
+    .mission ul li::before{display: block;}
+    .mission ul li{text-align: left;}
+	.facility-content ul {
+    --column: 2;
+}
+}/*991px-css-end*/
+@media (min-width: 992px){
+
+    .overview .left-content{padding-right: 3rem; margin-block: 4rem; text-align: left;}
+    .overview .row{--bs-gutter-x: 2.33rem}
+    .overview .right-content p{text-align: left;}
+
+    .mission ul{--columns: 2;}
+
+    .featured-news .news-text .news-title{font-size: 2.6rem;}
+    .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 1.7rem;}
+    .press-releases .docs:first-child{padding-inline: 0}
+    .press-releases .docs:first-child .doc-desc{font-size: 2.1rem;}
+    .happening-heading .timing{margin-bottom: 1.7rem;}
+    .happening-heading .happening-title{font-size: 2.6rem;}
+    .colleges .nav-tabs{justify-content: start;}
+    #college-accordion .college-title{font-size: 2rem;}
+    .colleges{margin-top: -4rem}
+    .send-cv .heading{width:min(80%, 700px);}
+    .faculty_detail_mid_right{margin-top: -2rem}
+    .faculty_detail_top h2{font-size: 2.65rem;}
+    .faculty_detail_top h3{font-size: 1.3rem; margin-top: 0}
+    .faculty_detail_top{text-align: left;}
+    .qualification-area.phone-part{display: flex; flex-wrap:wrap; justify-content: space-between; row-gap: 1.3rem;}
+    .phone-area, .email-area, .linkedin-area{display: flex;flex-wrap: wrap;align-items: center;}
+    .qualification-area{padding-block: 1rem;}
+    .qualification-area:first-child{padding-top: 0}
+    .phone-area{margin-bottom: 0rem;}
+    .brief-profile a{justify-content: flex-start;}
+    .faculty_detail_mid_right{padding: 0 3rem 3rem 3rem;}
+    .reference-content p:first-child{max-width: auto; margin-inline: 0;}
+    .faculty_detail_top:before{content: ""; position: absolute;left: 0; right: 0;top: 180px;background-color: #063142; width: 100%; height: 320px;z-index: -1;}
+    .faculty_detail_mid_left{margin-top: -2rem;}
+    .faculty_detail_mid_left figure::before{display: none;}
+    .course-select-panel .row{--bs-gutter-x: 3rem;}
+    .course_name h3{font-size: 1.5rem;}
+    .colleges .accordion {margin-top: 3rem}
+     /* ================= About Us Overview start-UI14041994-28-07-2023 ================== */
+    .laterother_wrap .later_content {padding-left: 1.22rem;}
+    .laterother_wrap .later_content blockquote {margin-bottom: 1rem;}
+    .laterother_wrap.row .align-items-center {align-items: inherit;}
+    .gray_bg.laterother_wrap figure {height: 100%;margin: 0;}
+    .gray_bg.laterother_wrap figure img{width:100%; height: 100%;}
+    .objective_wrap .objective_content {padding-right: 2rem;}
+    .slider_overwrap blockquote {padding: 1rem 0rem 1rem 2.2rem;}
+.bike-rally {text-align: left;}
+.bike-rally .stats {isolation: isolate; margin-left: 0;}
+.bike-rally .stats [data-count]::after { content: ''; position: absolute;left: 100%;top: 52%;width: 200%;
+    height: 1px;background-color: #dbdbdb; z-index: -1;}
+	.bike-rally figure {
+    position: relative;
+}
+}/*1199px-css-end*/
+@media (min-width: 1200px){
+    .inner-title .section-heading .section-title{font-size: 2.67rem;}
+    .featured-news .col-xl-11::before{transform: translateX(70px);}
+    .featured-news figure{padding-block: 3rem}
+    .featured-news .news-text{padding-right: 0}
+    .happening-details .happening-content .col-xl-8{padding-right: 1.5rem}
+    .happening-details .happening-content .col-xl-4{padding-left: 1.5rem}
+    .events-list .happening-thumb:not(.with-image) .happening-content{padding: 3rem;}
+    .events-list .happening-thumb:not(.with-image) .happening-content::after{left: 3rem; bottom: 3rem}
+    .events-list .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 2.3rem; margin-bottom: 2.5rem;}
+    .featured-event{padding-bottom: 3rem;}
+    .featured-event .event-text::before{width: 60%}
+    .featured-event .event-text{padding: 3rem; padding-bottom: 0; padding-right: 0; margin-top:3rem;}
+    .press-releases .docs:first-child .doc-desc{font-size: 2.6rem;}
+    .happening-list .form .row>*{flex-grow: 0;}
+    .faculty_detail_top:before{top: 200px; height: 360px}
+    .courses_offered_top_sec blockquote{font-size: 2rem}
+    /* ================= About Us Overview start-UI14041994-28-07-2023 ================== */
+    .pb-0.vision-mission {padding-top: 0;}
+    .value-and-strength blockquote {margin-bottom: 2rem;}
+    .laterother_wrap .later_content {padding-left: 2.22rem;}
+    .pb-0.vision-mission{padding-top: 4rem}
+	.golden-jublee .golden-jublee-inner {flex-direction: row;row-gap: 0;column-gap: 8rem;}
+	.golden-jublee .golden-jublee-inner {text-align: left;}
+	.golden-jublee .golden-jublee-inner .left-content::after {content: '';position: absolute;right: -4rem;top: 0;height: 100%;width: 1px;background: #dbdbdb;}
+	.inner-header ul {
+    column-gap: 2rem;
+}
+} /*1399px-css-end*/
+@media (min-width: 1400px){
+    .overview .left-content{padding-right: 6rem;}
+    .featured-news .col-xl-11::before{transform: translateX(110px);}
+    .events-list .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 2.67rem; margin-bottom: 3rem;}
+    .featured-event .row .row{align-items: flex-end;}
+    .contact-thumb{padding: 3rem 2rem; text-align: center;}
+    .contact-thumb p{font-size: 1.17rem;}
+    .contact-thumb .icon img{max-width: 2rem; max-height: 2rem;}
+    .colleges{margin-top: -14rem}
+    .faculty_detail_top:before{top: 240px; height: 410px}
+    .course-select-panel .row{--bs-gutter-x: 6rem;}
+/* ================= About Us Overview start-UI14041994-28-07-2023 ================== */
+.inner-header ul li a {font-size: 1.25rem;}
+   
+}/*1649px-css-end*/
+@media (min-width: 1600px){
+.featured-news .col-xl-11::before{transform: translateX(150px);}
+main{margin-top: 140px}
+.inner-header ul li a {font-size: 1.45rem;}
+}
+@media (hover: hover){
+    .nav-tabs .nav-item a:hover:after{transform: scaleX(1);}
+}
+
+
+
+@media (max-width: 1399px){
+.stats-xl span[data-count],.award-facts blockquote {font-size: 7rem;}
+.workshop-facts span[data-count] {font-size: 70px;}
+.founder-left-content {margin-left: 0rem;}
+.founder-detail p,.stats span.desc,p,.founder-development li span {font-size: 14px;}
+.founder-detail { margin-top: 1rem;}
+.founder-right-content:after {right: 2rem;}
+.facility-text {max-width: 100%;}
+.founder-fact {padding-left: 1rem;}
+.founder-text {width: 100%;}
+.founder-development {padding-left: 0;margin-left: 0;}
+.founder-development li span {margin-top: 0rem;}
+.workshop-right {padding-left: 0rem;}
+.shops-left {padding-right: 4rem;}
+.grp-discussion {margin-top: 3rem;}
+.offered-courses .text-yellow:after {left: 100%;}
+}
+
+@media (max-width: 991px){
+.impact-stories .tab-content>.tab-pane {display: block;opacity: 1;  }
+}
+
+
+
+
+

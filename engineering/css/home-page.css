@@ -1,0 +1,90 @@
+.mainSearchBtn img{filter: brightness(0) invert(1);}
+.home-banner-slider figure{margin-bottom: 0;}
+.home-banner-slider figure img{width:100%; height: 90vh; max-height: 1000px; min-height: 600px; object-fit: cover;}
+.home-banner-slider .slide-item{position: relative;}
+.home-banner-slider .slide-content{position: absolute; inset: 0; display: flex; align-items: end;padding-bottom:5rem;}
+.home-banner-slider .slide-title{font-size: 4rem; font-weight: 800; color:#2C2C2C; line-height: 1.2;letter-spacing: -1.8px; color: #FFFFFF;}
+.home-banner-slider .slide-title em{font-family: var(--georgia-reg); font-weight: 400; display: block;letter-spacing: 0px;color: #FFFFFF;}
+.home-banner-slider .slide-item figure:before{content:''; background: transparent linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0)30%);
+position: absolute; inset: 0}
+.home-banner-slider .slide-item figure:after{content:''; background: transparent linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.1));
+position: absolute; inset: 0}
+.home-banner-slider .slide-text label {font-size: 2rem;letter-spacing: -0.9px;color: #FFFFFF; display: block;line-height: 1.3; max-width: 28rem; font-weight: 700;}
+.home-academics {border-top: 1px solid rgb(112 112 112 / 29%);}
+.home-academics_left-panel a.btn {padding: 0;}
+.home-academics_right-panel{height: 100%; position: relative; padding-bottom: 2.5rem; }
+.home-academics_right-panel::after{content: ''; position: absolute; left: 0; bottom: 1.5rem; height: 1px; width: 100%; background-color: #e0e0e0; }
+.academics-programme {margin-bottom: 4.5rem; text-align: center;}
+.home-academics .academics-programme h6 {letter-spacing: 0px;color: #2C2C2C;font-size: 1.7rem;     font-weight: 700;margin-bottom:1rem;}
+.home-academics .academics-programme input{background: #F3F3F3; border: 0;letter-spacing: 0px;color: rgb(0 0 0 / 41%);font-size:1.3rem;font-style:italic;padding: 0.8em 0.5em; font-weight: 300;}
+.academics-bachelor-thumb h4 {letter-spacing: 0px;font-family: var(--georgia-reg); font-size: 2rem; color: var(--color-prime-dark); line-height: 1.2; padding-bottom: 1.4rem; position:relative; margin-bottom: 1.7rem;}
+.academics-bachelor-thumb h4:before {content: ""; position:absolute; left: 50%; width:4.2rem; height:3px; bottom: 0px; transform: translate(-50%, 50%);}
+.blue_border h4:before {background:var(--color-prime-dark);}
+.red_border h4:before {background:var(--color-red);}
+.yellow_border h4:before {background:var(--color-yellow);}
+.academics-bachelor-thumb p{ color: var(--color-black)}
+.academics-bachelor-thumb ul{max-width: 30rem; margin-inline: auto;}
+.academics-bachelor-thumb li{margin-bottom: .8rem;}
+.academics-bachelor-thumb li:last-child {margin-bottom: 0rem;}
+.academics-bachelor-thumb li a {font-size: 1.3rem;letter-spacing: 0px;color: #1E2028;display: flex; justify-content: space-between;}
+.academics-bachelor-thumb a img {filter: brightness(0);}
+.academics-bachelor-thumb{text-align: center;}
+.placement .container {margin-bottom: 4rem;}
+
+/*  */
+.department .section-heading{margin-bottom: 4.5rem;}
+.department .department-inner{display: grid;}
+.department .section-heading .section-title{margin-bottom: 1.3rem;}
+.department .department-content{padding: 2.5rem 1.5rem;}
+.department .department-content .section-heading{margin-bottom: 3rem;}
+.department ul{--column: 1; display: grid; grid-template-columns: repeat(var(--column), 1fr); column-gap: 3rem;}
+.department li{padding-block: 1rem; border-top: 1px solid #e0e0e0;}
+.department :is(li:first-child){padding-top: 0rem; border-top: none}
+.department li a{font-size: 1.167rem;color: var(--color-prime-dark)}
+.department .department-image{position: relative;}
+.department .department-image img{width: 100%}
+.department .statistics{ display: flex; padding: 2rem 1.3rem; background: var(--color-prime-dark); justify-content: center; --grid-gap: 0rem;}
+.department .statistics .stats{padding-inline: 1.2rem; text-align: center; border-left: 1px solid #aaa; border-right: 1px solid #aaa; width: 50%; max-width: 200px; flex-grow: 1;}
+.department .statistics .stats:first-child{border-right: none;}
+.department .statistics .stats [data-count]{line-height: 1; margin-bottom: 0; color: #fff; padding-inline: 0; font-size: 3rem;}
+.department .statistics .stats .desc{line-height: 2; margin-top: .3rem; color: #fff; font-size: 1.17rem; font-weight: 400;}
+
+
+
+
+/* Notices */
+.notices{display: flex; align-items:center ; column-gap: 3rem;}
+.notices h5{white-space: nowrap; font-weight: 600; font-size: 1.1rem; color: var(--color-red);}
+.notices .slide-item{padding-right: 60px;}
+.notices .slide-item a{font-size: 1.1rem; font-weight: 600; color: #000;line-height: 1}
+.notices :is(.swiper-button-prev, .swiper-button-next){width: 20px; height: 20px; top: 50%; bottom: auto; transform: translateY(-50%);}
+.notices .swiper-button-prev{right: 30px}
+
+/* Academics */
+.home-academics .btn-white{font-weight: 800;}
+.home-academics .courses-browse{margin-bottom: 1.1rem;}
+.home-academics .courses-browse a{display: block; padding-block: 1rem; border-bottom: .1rem solid #ccc; font-weight: 700; font-size: 1.2rem; line-height: 1.4; transition: .3s all;}
+.home-academics .courses-browse li:first-child a{padding-top: 0}
+.home-academics .courses-browse a:hover{color: var(--color-red)}
+.academics-thumb{display: grid; height: 100%; min-height: 250px;}
+.academics-thumb:not(.with-image){background-color: var(--color-prime-dark);}
+.academics-thumb figure{margin-bottom: 0;}
+.academics-thumb figure img{width:100%; min-height: 300px; object-fit: cover;}
+.academics-thumb :is(figure, .thumb-text){grid-area: 1/1;}
+.academics-thumb .thumb-text{display: flex; flex-direction: column; justify-content: flex-start; padding: 2rem 2.5rem; color: #fff}
+.academics-thumb .thumb-text .title{font-size: 1.7rem; font-weight: 700; line-height: 1.2; width: min-content}
+.academics-thumb .thumb-text .desc{display: block; padding-bottom: .8rem; margin-bottom: 1.3rem; border-bottom: 1px solid rgba(255,255,255,.2); font-weight: 700;}
+.academics-thumb .thumb-text :is(.desc){margin-top: auto}
+
+
+
+/* Quality Education */
+.quality-education{background: var(--color-light);}
+.quality-education .container{display:flex;align-items:flex-end;padding:5rem 0;}
+.quality-building-education{padding-block: 1.5rem; text-align: center;}
+.quality-building-education blockquote {font-size: 2.4rem;line-height: 1.1;font-family: var(--georgia-reg);letter-spacing: 0px;color: #063142;margin-bottom: 1rem;}
+.quality-building-education span {font-size: 1.27rem; font-weight: 700; line-height: 1.3; display: block; margin-bottom: 1.35rem;}
+.quality-education figure img{height: 100%; object-fit: cover; max-height: 1200px; object-position: bottom;}
+.quality-building-education a.btn-circle{margin-inline: auto}
+
+

@@ -1,0 +1,114 @@
+/*UI14041994*/
+@media (max-width: 1649px){
+    .accreditation_wrap ul {grid-row-gap: 3rem;padding: 2rem 0;}
+    .acc_recognitions ul li {padding-bottom: 2rem;}
+    .acc_recognitions ul {grid-row-gap: 4rem;margin-top: 4rem;grid-column-gap: 6rem;}
+    .acc_recognitions ul li figure img, .best_student ul li figure img{object-fit: contain;height: 100%;}
+    .polytechnic_nashik {padding: 5rem 0 8rem;}
+    .best_student {padding: 6rem 0 0rem;}
+    .team_member {margin: 2rem 0;}
+   /*--------Accreditation & Rankings--css-end-------*/
+   .chairman_profile{padding: 3rem 0;}
+   .chairman_profile .chprof_content {padding-left: 3rem;}
+   .chairman_profile .chprof_content::before {width: 1rem;}
+   /*--------chairman_profile--css-end-------*/
+
+}/*1649px-css-end*/
+
+@media (max-width: 1399px){
+    .acc_recognitions {padding: 0 0 5rem;}
+    .accreditation_wrap ul {grid-row-gap: 2rem;grid-column-gap: 1.5rem;}
+    .acc_naclogo .container {padding: 2rem 0;}
+    .acc_recognitions ul {grid-row-gap: 3rem;margin-top: 3rem;grid-column-gap: 4rem;}
+    .polytechnic_nashik h3 {margin-bottom: 2rem;}
+    .team_member .comnul_list li {padding-right: 2.66rem;}
+    .agriculture_colleges {padding: 5rem 0;}
+    .cenerlg_heading .lgheading {margin-bottom: 1.11rem;}
+    .best_student { padding: 3rem 0 0rem;}
+    .best_student ul {grid-column-gap: 3rem;grid-row-gap: 2rem;}
+    .best_student ul li {padding-bottom: 1.5rem;}
+    .best_student ul li figure{height: 5.6rem;margin-bottom: 1rem;}
+    .acc_hackathon {padding:3rem 0 1rem;}
+    /*--------Accreditation & Rankings--css-end-------*/
+    .chairman_profile h4 {padding-top: 0.44rem;}
+    /*--------chairman_profile--css-end-------*/
+
+}/*1399px-css-end*/
+
+@media (max-width: 1199px){
+    .acc_recognitions ul li figure {height: 3.5rem;}
+    .acc_recognitions ul li figure {height: 3.5rem;}
+    .polytechnic_nashik {padding: 4rem 0 5rem;}
+    .polytechnic_nashik .polnas_content img{width: 100%;height: 100%;object-fit: cover;}
+    .polytechnic_nashik .polnas_content {padding-right: 0;}
+    .team_member .comnul_list li {padding-right: 1.66rem;}
+    .acc_patent{padding: 2.55rem 0;}
+    .cenersm_heading {margin-bottom: 1.5rem;}
+    /*--------Accreditation & Rankings--css-end-------*/
+    .chairman_profile .chprof_content {padding-left: 2rem;}
+    .chairman_profile .chprof_content h2 {margin-bottom: 1rem;}
+    .extera_para {padding: 1.5rem 0 2rem;}
+    /*--------chairman_profile--css-end-------*/
+
+
+}/*1199px-css-end*/
+@media (max-width: 991px){
+    .accreditation_wrap ul {grid-template-columns: repeat(2, 1fr);padding: 2rem 0 0.9rem;}
+    .accreditation_wrap ul {grid-row-gap: 1rem;grid-column-gap: 1.5rem;}
+    .accreditation_wrap ul li {padding-bottom: 0.65rem;}
+    .acc_recognitions ul{grid-template-columns: repeat(2, 1fr);}
+    .acc_recognitions ul li {padding-bottom: 1rem;}
+    .acc_recognitions ul li::before, .agriculture_colleges ul li::after {height: 2px;}
+    .acc_recognitions ul {grid-row-gap: 2rem;margin-top: 2rem;grid-column-gap: 3rem;}
+    .polytechnic_nashik {padding: 3rem 0;text-align: center;}
+    .comnul_list li {justify-content: center;border-bottom: 1px solid rgb(253 184 19 / 62%);margin: 0;padding: .8rem;}
+    .comnul_list li::before{display: none;}
+    .polytechnic_nashik .polnas_content blockquote {margin-bottom: 1rem;}
+    .polytechnic_nashik .col-lg-6:first-child{order: 0;}
+    .polytechnic_nashik .col-lg-6:first-child{order: 1;}
+    .polytechnic_nashik .polnas_content{margin-top:1rem;}
+    .polytechnic_nashik h3 {margin-bottom: 1.55rem;}
+    .polytechnic_nashik .polnas_content img {width: 100%;height: auto;object-fit: contain;}
+    .team_member .comnul_list li{width: 100%;}
+    .team_member{text-align: center;}
+    .team_member h5 {font-weight: bold;}
+    .agriculture_colleges ul{grid-template-columns: repeat(2, 1fr);grid-column-gap: 3rem;grid-row-gap: 2rem;}
+    .cenerlg_heading {padding: 0 4rem;}
+    .cenersm_heading .smheading, .cenersm_heading p, .acc_patent ul li{text-align: center;}
+    .acc_patent .accpatent_content {padding-left: 0;text-align: center;}
+    /*--------Accreditation & Rankings--css-end-------*/
+
+    .top-section.about-us-overview.inner_pagemenu {padding: 2rem 0;}
+    .chairman_profile {padding: 1rem 0;}
+    .chairman_profile {padding: 0.5rem 0 3rem;}
+    .chairman_profile .chprof_content::before, .chairman_profile .chairman_row::before{display: none;}
+    .chairman_profile .chprof_content, .extera_para {padding: 1.5rem 1.5rem 0;text-align: center;}
+
+    /*--------chairman_profile--css-end-------*/
+
+} /*991px-css-end*/
+
+@media (max-width: 767px){
+
+
+}/*767px-css-end*/
+
+@media (max-width: 575px){
+    .page_menu li:not(:last-child) {margin-right: 0;}
+    .page_menu li{margin-right: 0;width: 100%;text-align: center;}
+    .page_menu li a{display: block;padding: 1rem 0;}
+    .top-section.about-us-overview.inner_pagemenu {padding: 1rem 0;}
+    .chairman_profile .chprof_content, .extera_para {padding: 1.5rem 0.5rem 0;}
+    .chairman_profile {padding: 0rem 0 3rem;}
+    /*--------chairman_profile--css-end-------*/
+
+}/*575px-css-end*/
+
+@media (max-width: 375px){
+    .top-section.about-us-overview.inner_pagemenu {padding: 0.5rem 0;}
+     /*--------chairman_profile--css-end-------*/
+}/*575px-css-end*/
+
+@media (hover: hover){
+    .nav-tabs .nav-item a:hover:after{transform: scaleX(1);}
+}

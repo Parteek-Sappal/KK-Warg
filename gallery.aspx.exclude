@@ -1,0 +1,50 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/layouts/inner.master" AutoEventWireup="true" CodeFile="gallery.aspx.cs" Inherits="gallery" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+        <section class="inner-title">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h1 class="section-title">Gallery</h1>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a id="ankall" runat="server"><span>All</span></a></li>
+                    <li class="nav-item"><a id="ankvideo" runat="server"><span>Video Gallery</span></a></li>
+                    <li class="nav-item"><a id="ankphoto" runat="server"><span>Photo Gallery</span></a></li>
+                </ul>
+                <div class="gallery-list">
+                    <div class="row gy-5 gx-3">
+                        <asp:Repeater ID="rptgallery" runat="server" OnItemDataBound="rptgallery_OnItemDataBound">                       
+                        <ItemTemplate>
+                        <asp:Literal ID="littypeid" runat="server" Text='<%#Eval("typeid") %>' Visible="false"></asp:Literal>
+                        <asp:Literal ID="litalbumid" runat="server" Text='<%#Eval("albumid") %>' Visible="false"></asp:Literal>
+                        <div class="col-lg-4 col-sm-6">
+                            <a id="ank" runat="server">
+                                <figure>
+                                    <img class="img-fluid" src="/uploads/largeimages/<%#Eval("uploadaimage") %>" alt="Gallery image">
+                                    <figcaption>                                        
+                                        <div class="icon">
+                                            <img src="./images/icon-feather-image.png" alt="image icon">
+                                        </div>
+                                        <span class=""><asp:Label ID="lblcnt" runat="server" Visible="true"></asp:Label></span>
+                                    </figcaption>
+                                </figure>
+                                <div class="text">
+                                    <span class="collection-title"><%#Eval("albumtitle")%></span>
+                                </div>
+                            </a>
+                        </div>
+                        </ItemTemplate>
+                        </asp:Repeater>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-link view-more">View More <span class="btn btn-circle btn-prime"><img class="img-fluid" src="./images/right-angle-white.svg"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</asp:Content>
+

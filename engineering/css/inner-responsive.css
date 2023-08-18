@@ -1,0 +1,399 @@
+@media (min-width: 420px){
+    .recruiters-list {--columns: 3; --gap-x: 1.3rem; --gap-y: 2.5rem;}
+    .coe-ti .facility-content ul{--column: 2; --column-gap: 1rem}
+
+}
+
+@media (min-width: 575px){
+    .happening-thumb .happening-content{padding-inline: 1.5rem}
+    .work-with-us .bg-yellow{padding: 4rem; text-align: left;}
+    .send-cv a{font-size: 1.7rem;}
+    .award-box{padding-inline: 2.5rem}
+    .reference p strong{display: inline; margin-top: 0rem;}
+    .course_name{display: flex;}
+    .course_name p:last-child{margin-bottom: 0rem;}
+    .accrediaton-thumb{height: 100%}
+    .accrediaton-content .col-sm-6{ border: 1px solid #1e202818; border-collapse: collapse; border-bottom: none; border-right: none}
+    .accrediaton-content .col-sm-6:nth-child(odd){border-left: none;}
+    /* .accrediaton-content .col-sm-6:nth-child(even){border-right: none; border-left: none} */
+    .accrediaton-content .col-sm-6:nth-child(even) .accrediaton-thumb{padding-left: 1.5rem;}
+    .accrediaton-content .col-sm-6:nth-child(odd) .accrediaton-thumb{padding-right: 1.5rem;}
+    .accrediaton-content .col-sm-6:where(:nth-child(1), :nth-child(2)){border-top: none}
+    .admission-contact figure{padding-left: 3rem; padding-bottom: 2rem}
+    .admission-contact .content{position: absolute; left: 0; bottom: 0; width: 60%}
+    
+    .eligibility .bg-prime-dark{padding: 3rem}    
+    .hostal-events .container::before{content:''; position: absolute; right: 103%; top: 0; height: calc(100% - 3rem); background-color: var(--color-red); width: 50vw}
+    .transport-contact{display: grid;}
+    .transport-contact>*{grid-area: 1/1;}
+    .transport-contact .container{padding-top: 4rem}
+    .transport-contact .content{max-width: 20rem;}
+    .transport-contact figure img{height: 100%; object-fit: cover;}
+    .canteen .statistics::before{content: ''; position: absolute; left: 50%; top: 50%; height: 90%; translate: 0 -50%; width: 1px; background: #D2D2D2}
+    
+    .recognition-thumb{flex-direction: row; column-gap: 1rem; text-align: left;}
+    .institute-usp :where(.top, .bottom, .usp-inner){padding-inline: 2.33rem; text-align: left;}
+    .affliation .doc-container{--column: 2; text-align: left;}
+    .doc-container .doc-thumb a{margin-left: 0}
+    .bord-of-directors .row{ --bs-gutter-x: 3rem}
+    .recognitions .row{--bs-gutter-x: 3rem}
+    .recognitions .recognition-thumb{align-items: flex-start;}
+    .recognitions .recognition-thumb::after{left: 0; translate: 0;}
+    
+    .awards-list .row{--bs-gutter-x: 2rem}
+    .placement-vision-mission .content{padding-inline: 3rem}
+    .recruiters-list {--gap-x: 2rem;}
+    .prayas-activity-report .facility-content ul{--column:2;}
+    .club-report .facility-content ul{--column: 2}
+    .additional-programmes .row .row{--bs-gutter-x: .7rem}
+    section{padding: 5rem 0}
+    .aicte-idea-lab {padding-top: 8rem;}
+    :is(.master-student-program, .club-report) .bg-prime-dark{padding-block: 5rem 1.5rem;}
+    .committee-main .logo-icons{column-gap: 3rem;}
+    .committee-main .logo-icons img{max-width: 250px;}
+    .pdf-thumb-container {--columns: 2}
+    .pdf-thumb-container .pdf-thumb{align-items: flex-start;}
+    .innovation-center.top-section .left-content .d-flex{ transform: translateX(2.33rem);position: absolute; right: 0; bottom: 0; }
+    
+    .objective-thumb{margin-bottom: 0; text-align: left}
+    .coe .objective .row{--bs-gutter-x: 2rem}
+    .coe .objective .row>div:first-child .objective-thumb{position: relative;}
+    .coe .objective .row>div:first-child .objective-thumb::after{content:''; position: absolute; right: calc(var(--bs-gutter-x) * -.5); top: 0; height: 100%; width: 1px; background-color: rgba(255,255,255,.5);}
+}
+@media (min-width: 768px){
+    .inner-title .section-heading .section-title{font-size: 2.4rem;}
+    .featured-news .news-text .news-title{font-size: 2.3rem;}
+    .faculty_detail_top h2{font-size: 1.7rem;}
+    .course_name h3{font-size: 1.3rem;}
+    .college-list, .course_name{padding-inline: 2rem}
+    .course_content .row>.col-md-6:nth-child(odd) .college-list::after{top: 1rem; left: auto; width: 1px; height: calc(100% - 2rem); }
+
+    .career-options-inner{padding-inline: 2rem}
+    .facility-section .stats.stats-lg [data-count]{font-size: 6rem;}
+    .facility-section .stats.stats-lg .desc{font-size: 2rem;}
+    .facility-content ul{--column: 2;}
+    .nss-symbol figure{margin-left: -2.33rem}
+    .nss-symbol figure::before{content:''; position: absolute; left: 0; top: calc(100% - 1px); width: 100%; height: 5.1rem; background: #fff}
+    .affliation .doc-container{--column: 3}
+    .directors-desk .container::before, .directors-desk .container::after{ height: 36rem}
+    .recruiters-list {--columns: 4; --gap-x: 2rem; --gap-y: 2.5rem;}
+    .prayas-objective .registration .content{position: relative;}
+    .prayas-objective .registration .content:after{content:''; position: absolute; left: -1.55rem; height: 100%; top: 0; width: 1px; background: rgba(222, 222, 222, .18)}
+    .pdf-thumb-container {--columns: 3}
+    .coe-ti .facility-content ul{--column: 3;}
+}
+@media (min-width: 992px){
+    .featured-news .news-text .news-title{font-size: 2.6rem;}
+    .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 1.7rem;}
+    .press-releases .docs:first-child{padding-inline: 0}
+    .press-releases .docs:first-child .doc-desc{font-size: 2.1rem;}
+    .happening-heading .timing{margin-bottom: 1.7rem;}
+    .happening-heading .happening-title{font-size: 2.6rem;}
+    /* .colleges .nav-tabs{justify-content: start;} */
+    /* #college-accordion .college-title{font-size: 2rem;} */
+    /* .colleges{margin-top: -4rem} */
+    .course-details-header .row .row{--bs-gutter-x: 5rem}
+
+    .inner-header{display: block;}
+
+    .send-cv .heading{width:min(80%, 700px);}
+    .faculty_detail_mid_right{margin-top: -2rem}
+    .faculty_detail_top h2{font-size: 2rem;}
+    .faculty_detail_top h3{font-size: 1.3rem; margin-top: 0}
+    .faculty_detail_top{text-align: left;}
+    .qualification-area.phone-part{display: flex; flex-wrap:wrap; justify-content: space-between; row-gap: 1.3rem;}
+    .phone-area, .email-area, .linkedin-area{display: flex;flex-wrap: wrap;align-items: center;}
+    .qualification-area{padding-block: 1rem;}
+    .qualification-area:first-child{padding-top: 0}
+    .phone-area{margin-bottom: 0rem;}
+    .brief-profile a{justify-content: flex-start;}
+    .faculty_detail_mid_right{padding: 0 3rem 3rem 3rem;}
+    .reference-content p:first-child{max-width: auto; margin-inline: 0;}
+    .faculty_detail_top:before{content: ""; position: absolute;left: 0; right: 0;top: 180px;background-color: #063142; width: 100%; height: 320px;z-index: -1;}
+    .faculty_detail_mid_left{margin-top: -2rem;}
+    .faculty_detail_mid_left figure::before{display: none;}
+    .course-select-panel .row{--bs-gutter-x: 3rem;}
+    .course_name h3{font-size: 1.5rem;}
+
+    .offered-programs .courses{position: absolute; left: 0; bottom:0; width: calc(100% - 6rem); transform: translateY(50%);}
+    .offered-programs .content{padding: 6rem; padding-left: 0; padding-bottom: 9rem;}
+    .offered-programs .content::before{content:''; position: absolute; top: 0; height: 100%; width: 600%; right: 100%; background-color: var(--color-light);}
+    .vision-mission {padding-top: 5rem;}
+    .vision-mission .mission{padding-bottom: 8rem;padding: 0}
+    .vision-mission .vision {margin-right: 6rem; padding: 4rem;}
+    .program-outcomes{padding-top: 13rem; padding-bottom: 6rem; margin-top: -5rem}
+    .program-outcomes .panel-body{padding-top: 4.5rem}
+    .duration-and-criteria{display: grid; grid-template-columns: 30% 70%; text-align: left;}
+
+
+    .program-section .ps-thumb, .program-section.bg-prime-dark .ps-thumb{padding-inline: 2rem}
+    .program-section.bg-prime-dark .col-lg-6:nth-child(odd) .ps-thumb{padding-left: 0rem;}
+    .program-section.bg-prime-dark .col-lg-6:nth-child(even) .ps-thumb{padding-right: 0rem;}
+    .career-options-inner .section-heading{padding-top: 0}
+
+
+    .student-resident .row{--bs-gutter-y: 0rem}
+    .student-resident.facility-section .content{max-width: max(420px, 80%); margin-top: -5rem; }
+
+    .support-accommodation {text-align: left;}
+    .support-accommodation .bg-yellow{margin-left: 0}
+    .usp-content{padding-top: 0; padding-left: 4.5rem;}
+    .accrediaton .container > .row{--bs-gutter-x: 2.5rem; --bs-gutter-y: 0}
+    .admission-contact :where(figure, figure img){height: 100%; object-fit: cover;}
+    
+    .admission-process.courses-offered .row{--bs-gutter-y: 0rem; --bs-gutter-x: 2rem}
+    .admission-process .offered-courses{padding-bottom: 4rem;}
+    
+    .admission-process.hostal::after{content: ''; position: absolute; inset: 0; top: auto; height: 5.5rem; z-index: -1; background-color: #114154;}
+    .girls-hostal{padding-top: 3rem}
+    .girls-hostal .container>.row{--bs-gutter-x: 2rem;}
+    .hostal-events .hostalEvents :where(.swiper-button-prev, .swiper-button-next){left: 43%;}
+    :is(.zymkhana, .gymnasium, .transport) :is(.facility-content, .tab-accordian-tabs){padding-left: 2rem}
+    .gymnasium .panel-body .facility-main-image{margin-top: -5rem}
+
+    
+    .canteen .container:not(.container-sm-max) .row{--bs-gutter-x: 4rem}
+    .student-resident .declairation h5{padding-left: 1.5rem}
+    
+    .health .content{margin-left: -4rem;}
+    .health .facility-content{padding-left: 2rem;}
+    .health figure + p{padding-right: 5rem;}
+    .health-contacts .contact-thumb{width: fit-content}
+    .health-councelling ul{padding-right: 3rem}
+    :is(.about-dr,.nss-objective) .facility-content{padding-left: 3rem}
+    :is(.nss-main) .facility-content{padding-right: 3rem}
+    .nss-elements{display: grid;}
+    .nss-elements>*{grid-area: 1/1;}
+    .nss-elements .container{display: flex; height: 100%; justify-content: end; align-items: end;}
+    .nss-elements .content{max-width: 25rem; padding: 3.33rem 2.33rem; background: #fff}
+    .nss-elements .nav-tabs{margin-bottom: 2rem;--gap-x: 4rem}
+    
+    .about.section-type-1 .facility-content{padding-left: 2rem}
+
+    
+    .directors-desk .container::before, .directors-desk .container::after{ height: 22rem}
+    .directors-desk .container::after{ left: calc(100% + 2rem)}
+
+    
+    .recognition-and-achienement.top-section .content{padding-left: 4rem;}
+    .recognition-and-achienement.top-section .content h4{margin-bottom: 1.6rem;}
+    .recognition-and-achienement.top-section .content p{padding-top: 1.6rem; border-top: 1px solid #dbdbdb}
+    .recognition-and-achienement.top-section figure{ width: 100%}
+    .recognition-and-achienement.top-section figure img{ width: 100%}
+    .awards-list .row{--bs-gutter-y: 0rem}
+    .placement-centre .stats-xl{ margin-top: -4rem; padding-top: 3rem;}
+    .recruiters-list {--columns: 5; --gap-x: 2rem; --gap-y: 2.5rem;}
+    .alumni-development .content{padding-left: 1.5rem; padding-block: 2rem;}
+
+    .central-library .row .row{margin-top: -4rem; height: calc(100% + 4rem)}
+    .central-library.classroom .content{padding-bottom: 6rem; padding-right: 3rem}
+    .central-library.classroom .content.end{padding-block: 2rem; padding-left: 3rem; padding-right: 0}
+    .library-infrastructure .row .row .col-12{height: 55%}
+    .library-infrastructure .row .row .col-sm-6{height: calc(100% - (55% + var(--bs-gutter-y)))}
+    
+    .floor-area .tab-content{margin-top: 4rem}
+    .floor-area .facility-content{padding-right: 3rem}
+    .floor-area .stats.stats-xl{width: min(440px, 100%); text-align: left;}
+    .prayas-objective .right-content{padding-left: 3rem}
+    
+    .prayas-objective .registration .content-left{padding-right: 3rem; text-align: right;}
+    .prayas-activity-report .facility-content ul{--column:3; column-gap: 4rem;}
+    
+    .club-report .facility-content ul{--column: 3; column-gap: 4rem;}
+    .sc-iet .stats-xl .desc{margin-left: 1.5rem;}
+    .sc-iet .row {--bs-gutter-x: 5rem}
+    .sc-iet .content-right {padding-left: 2rem;position: relative;}
+    .sc-iet .content-right::before{content: ''; position: absolute; left: -2rem; width: 1px; height: 100%; top: 0; background: #d2d2d2;}
+    .student-chapter-committee .row{--bs-gutter-x: 6rem}
+    
+    .student-chapter-committee .row{text-align: left;}
+    .student-chapter .facility-content .report-list {--column: 2}
+    .committee-main .logo-icons img{height: 90px}
+    .pdf-thumb-container {--columns: 4}
+    .yukti-main .row {--bs-gutter-x: 4rem}
+    .yukti-main .row>div:last-child{border-left: 1px solid #e0e0e0}
+    .yukti-main .hei .row>div:last-child{border: none;}
+    .yukti-main .hei p{padding-right: 3rem}
+    .aicte-idea-lab p{padding-block: 1.5rem; height: 100%; padding-right: 2rem; border-right: 1px solid #e5e5e5}
+    .aicte-idea-lab .vision-mission .row{--bs-gutter-x: 3rem; --bs-gutter-y: 0}
+    .active-idea-lab-selection .row>*{flex-grow: 1;}
+    .active-idea-lab-selection .right-content{padding-left: 1.5rem;}
+    .aicte-idea-lab .vision-mission{margin-top: 0}
+
+    .bike-rally .stats{isolation: isolate; margin-left: 0}
+    .bike-rally .stats [data-count]{position: relative;}
+    .bike-rally .stats [data-count]::after{content:''; position: absolute; left: 100%; top: 52%; width: 200%; height: 1px; background-color: #dbdbdb; z-index: -1;}
+    .bike-rally figure{position: relative;}    
+    .bike-rally {text-align: left;}
+    .bike-rally .row{--bs-gutter-y: 0rem}
+    
+    .coe .objective .row{--bs-gutter-x: 6rem}
+    
+
+}
+
+
+@media (min-width: 1200px){
+    .inner-title .section-heading .section-title{font-size: 2.67rem;}
+    .featured-news .col-xl-11::before{transform: translateX(70px);}
+    .featured-news figure{padding-block: 3rem}
+    .featured-news .news-text{padding-right: 0}
+    .happening-details .happening-content .col-xl-8{padding-right: 1.5rem}
+    .happening-details .happening-content .col-xl-4{padding-left: 1.5rem}
+    .events-list .happening-thumb:not(.with-image) .happening-content{padding: 3rem;}
+    .events-list .happening-thumb:not(.with-image) .happening-content::after{left: 3rem; bottom: 3rem}
+    .events-list .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 2.3rem; margin-bottom: 2.5rem;}
+    .featured-event{padding-bottom: 3rem;}
+    .featured-event .event-text::before{width: 60%}
+    .featured-event .event-text{padding: 3rem; padding-bottom: 0; padding-right: 0; margin-top:3rem;}
+    .press-releases .docs:first-child .doc-desc{font-size: 2.6rem;}
+    .happening-list .form .row>*{flex-grow: 0;}
+    .faculty_detail_top:before{top: 200px; height: 360px}
+    .inner-header ul{column-gap: 2rem;}
+    .classroom:not(.central-library) .row .row{margin-top: -9rem}
+    .central-library.classroom .content{padding-top: 4rem; padding-right: 4rem}
+    .classroom .content{padding-left: 0; padding-bottom: 13rem;}
+    .facility-section .content{padding-right: 2.3rem;}
+    .facility-section .content.end{padding-left: 2.3rem; padding-right: 0;}
+    .facility-section .stats.stats-lg [data-count]{font-size: 8rem;}
+    
+    .admission-overview.usp::after{content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 7rem; background: #ddebf1; z-index: -1;}
+    .usp-content{ padding-bottom: 4.5rem; }
+    .accrediaton .container > .row{--bs-gutter-x: 3.5rem}
+    
+    .facility-content{padding-top: 2rem}
+    .gymnasium .facility-content{padding-top: 2rem}
+    .transport .facility-content{padding-top: 1rem}
+    .student-resident :is(.content, .additional-info, .declairation h5){padding-inline: 2.5rem}
+    .health-contacts .contact-thumb{margin-inline: 2rem;}
+    .health-councelling figure img{height: auto; aspect-ratio: 3/2;}
+    .nss-symbol .facility-content{padding-top: 3em}
+    .about-us-overview .overview-text{padding-left: 3rem; border-left: 1px solid #c9c9c9; padding-block: .7rem;}
+    .institute-usp .usp-inner{padding-inline: 0}
+    .affliation .doc-container{--column: 5}
+    .directors-desk .container::before, .directors-desk .container::after{ height: 28rem}
+    .directors-desk .content{padding-right: 2rem}
+    .sae-competition :is(.content, .content-inner){padding-left: 1.5rem}
+    
+    .training-and-placement.top-section .content{padding-left: 2rem}
+    .placement-vision-mission .content:not(.bg-prime-dark){padding-left: 5.5rem}
+    .recruiters-list {--columns: 5; --gap-x: 3rem; --gap-y: 3.5rem;}
+    .alumni-association h4{padding-right: 3rem}
+    .alumni-development .content{padding-left: 2.5rem}
+    .library-timing .row{--bs-gutter-y: 0rem}
+    .library-timing .row .row {--bs-gutter-y: 3.5rem;}
+    .prayas-activity-report .facility-content ul{--column:4}
+    .financial-club.bg-prime-dark{padding-top: 10rem;margin-top: -2.5rem}
+    .clubs-main .facility-content{padding-left: 3rem;}
+    
+    .sc-csi .facility-content{ padding-right: 3rem}
+    .student-chapter .student-event .facility-content{ padding-left: 0; padding-right: 3rem}
+    
+    .master-student-program .content-right{margin-top: 2rem}
+    
+    .student-chapter .student-event>.row{--bs-gutter-y: 0rem}
+    .student-chapter .student-event .content-right .row:first-child{--bs-gutter-y: 0rem}
+    .master-student-program .row{--bs-gutter-y: 0}
+    .committee-main .content-right-xl{padding-left: 2rem}
+    .committee-main .row{--bs-gutter-y: 0}
+    .iic-report .facility-content ul{column-gap: 4rem}
+    .innovation-center.top-section .right-content {padding-left: 2.33rem}
+    :is(.significance-and-inportance, .sports-facility) .right-content {padding-left: 1.67rem}
+    :is(.aicte-idea-lab, .significance-and-inportance) .stats.stats-xl{width: 100%; column-gap: 1rem; text-align: left;}
+    
+    .innovation-center .facility-content{padding-right: 3.5rem;}
+    .yoga-room .content{padding-right: 1.5rem; margin-bottom: 0;}
+    .yoga-room .row{--bs-gutter-x: max(13px, .69rem); --bs-gutter-y: 0}
+    .golden-jublee .golden-jublee-inner{flex-direction: row; row-gap: 0; column-gap: 8rem;}
+    .golden-jublee .golden-jublee-inner{text-align: left;}
+    .golden-jublee .golden-jublee-inner .left-content::after{content: ''; position: absolute; right: -4rem; top: 0; height: 100%; width: 1px; background: #dbdbdb}
+    .bike-rally blockquote{margin-bottom: 3rem}    
+
+    .coe .content-left{padding-right: 2.5rem}
+    .coe .content-right{padding-left: 2.5rem}
+    .coe .row{--bs-gutter-y: 0rem}
+    .coe-ti .facility-content{padding-top:1rem}
+    .coe-ti .facility-content ul{column-gap: 1rem;}
+    
+}
+@media (min-width: 1400px){
+    section{padding: 6rem 0}    
+    .aicte-idea-lab {padding-top: 9rem;}
+    .master-student-program .bg-prime-dark{padding-block: 6rem}    
+    .club-report .container.bg-prime-dark{padding-block: 6rem}
+/*     header.sticky .desktop-menubar .menu-link{padding-block: 2.65rem;} */
+    .inner-header ul li a{display: block;font-size: 1.25rem;}
+    .featured-news .col-xl-11::before{transform: translateX(110px);}
+    .events-list .happening-thumb:not(.with-image) .happening-content .happening-title{font-size: 2.67rem; margin-bottom: 3rem;}
+    .featured-event .row .row{align-items: flex-end;}
+    .contact-thumb{padding: 2.3rem 2rem; text-align: center; padding-bottom: 1.8rem;}
+    .contact-thumb p{font-size: 1.17rem;}
+    .contact-thumb .icon img{max-width: 2rem; max-height: 2rem;}
+    .map-container{margin-top: -14rem}
+    .faculty_detail_top:before{top: 240px; height: 410px}
+    .course-select-panel .row{--bs-gutter-x: 6rem;}
+    .career-options-inner{padding-inline: 3rem}
+    .filter-abc{column-gap: 1.1rem}
+    .program-section .ps-thumb, .program-section.bg-prime-dark .ps-thumb{padding-inline: 3rem}
+    .program-section.bg-prime-dark .col-lg-6:nth-child(odd) .ps-thumb{padding-left: 0rem;}
+    .program-section.bg-prime-dark .col-lg-6:nth-child(even) .ps-thumb{padding-right: 0rem;}
+
+    .facility-section .content{padding-right: 3rem;}
+    .facility-section .content.end{padding-left: 3rem; padding-right: 0;}
+    .facility-section{--grow-size: -6rem}
+    .seminar-hall .content{max-width: 520px;}
+    .admission-process.hostal::after{content: ''; position: absolute; inset: 0; top: auto; height: 7.5rem; z-index: -1; background-color: #114154;}
+    .health-contacts .contact-thumb{margin-inline: 3rem}
+    .directors-desk .container::before, .directors-desk .container::after{ height: 32rem}
+    
+    .directors-desk .content{padding-left: 3rem; padding-right: 2rem}
+    .placement-vision-mission .content:not(.bg-prime-dark){padding-left: 7rem}
+    .recruiters-list {--columns: 6; --gap-x: 3rem; --gap-y: 3.5rem;}
+    .alumni-development .content{padding-left: 3.5rem;}
+    .central-library.classroom .content.end{padding-block: 3rem;}
+    .library-infrastructure .facility-content{padding-left: 2.5rem}
+    .prayas-objective .right-content{padding-left: 4rem}
+    
+    .prayas-objective .registration .content-left{padding-right: 4rem;}
+    :is(.prayas-activity-report,.club-report) .facility-content ul{column-gap: 6rem}
+    .sc-csi .facility-content{ padding-right: 6rem}
+    .student-chapter .student-event .facility-content{ padding-right: 3rem;}
+    .master-student-program .content-right{padding-left: 3rem}
+    .iic-report .facility-content ul{column-gap: 6rem}
+    .pdf-thumb-container {--columns: 5; --gap-y: 4rem}
+    .yukti-main .row {--bs-gutter-x: 7rem}
+    .aicte-idea-lab .vision-mission .row{--bs-gutter-x: 4rem; }
+    .innovation-center .facility-content ul{--column: 3}
+    .coe-ti .facility-content ul{padding-right: 2.5rem}
+    .coe-ti .row .row{margin-top: 4rem}
+}
+@media (min-width: 1600px){
+    /* header.sticky .desktop-menubar .menu-link{padding-block: 2.65rem;} */
+    .inner-header ul li a{display: block;font-size: 1.45rem;}
+    .featured-news .col-xl-11::before{transform: translateX(150px);}
+    main{margin-top: 140px}
+    .program-outcomes .nav-tabs .nav-item a{padding: 2.3rem 3.5rem}
+    .program-outcomes .outcome-thumb{padding-inline: 3.5rem;padding-bottom: 2rem;}
+    .program-outcomes .outcome-thumb::after{left: 3.5rem}
+    .placement .section-title{font-size: 3.61rem;}
+    .career-options-inner{padding-inline: 4rem}
+    .facility-section .stats.stats-lg [data-count]{font-size: 10rem;}
+    .girls-hostal .container>.row{--bs-gutter-x: 4rem;}
+    
+    .hostal-events .container::before{content:''; position: absolute; right: 105%; top: 0; height: calc(100% - 3rem); background-color: var(--color-red); width: 50vw}
+    
+    /* .accrediaton-thumb{padding: 2.5rem 0rem} */
+    /* .accommodation-inner .content.end{padding-left: 3.7rem} */
+    .directors-desk .content{padding-left: 2rem; padding-right: 1rem}
+    .directors-desk .container::before, .directors-desk .container::after{ height: 29rem}
+    
+    .recognitions .row{--bs-gutter-x: 5rem}
+    
+    .awards-list .row{--bs-gutter-x: 5rem}
+    .placement-vision-mission .content{padding-inline: 4rem}
+    .alumni-association h4{padding-right: 3rem}
+    
+}
+@media (hover: hover){
+    .nav-tabs .nav-item a:hover:after{transform: scaleX(1);}
+}
