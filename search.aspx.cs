@@ -186,7 +186,7 @@ public partial class search : System.Web.UI.Page
         // Course list
         Parameters.Clear();
         strqry = "";        
-        strqry = "select distinct courseid as pageid,coursename as stitle,coursedetail as ldesc, pageurl='coursedetail.aspx?mpgid=102&pgidtrail=102&courseid='+convert(varchar,courseid) from Course where status=1";
+        strqry = "select distinct courseid as pageid,coursename as stitle,coursedetail as ldesc, pageurl='coursedetail.aspx?mpgid=30&pgidtrail=30&courseid='+convert(varchar,courseid) from Course where status=1";
 
         if (!string.IsNullOrEmpty(Request.QueryString["search"]))
         {

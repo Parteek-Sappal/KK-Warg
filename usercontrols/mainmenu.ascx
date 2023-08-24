@@ -34,7 +34,7 @@
                                                     <asp:Literal ID="litrewriteurl" runat="server" Visible="false" Text='<%#Eval("rewriteurl")%>'></asp:Literal>
                                                     <li><a id="ank" runat="server"><%#Eval("linkname")%></a></li>
                                                     </ItemTemplate>
-                                                    </asp:Repeater>
+                                                  </asp:Repeater>
                                                 </ul>
                                             </div>
                                         </li>

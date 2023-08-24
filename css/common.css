@@ -62,6 +62,7 @@
 *{margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 html, body{max-width: 100%; overflow-x: hidden; min-height: 100vh;display: flex; flex-direction: column; background-color: var(--body-bg); font-family: var(--open-sans); scroll-behavior: smooth;}
+html{scroll-padding-top:125px;}
 @media (min-width: 1600px){html,body{font-size: 18px;}}
 @media (max-width: 768px){html,body{font-size: 14px;}}
 /* Background Colors */
@@ -97,7 +98,7 @@ html, body{max-width: 100%; overflow-x: hidden; min-height: 100vh;display: flex;
 .fsize-2{font-size: 3.33rem; line-height: 1.1}
 .fsize-3{font-size: 3rem; line-height: 1.2}
 .fsize-4{font-size: 1.8rem;  line-height: 1.35}
-.fsize-5{font-size: 1.37rem; line-height: 1.35}
+.fsize-5{font-size: 1.67rem; line-height: 1.35}
 .fsize-6{font-size: 1.33rem; line-height: 1.5;}
 .fsize-7{font-size: 1.17rem; line-height: 1.5}
 .fsize-8{font-size: max(13px, .889rem); line-height: 1.5}
@@ -356,14 +357,17 @@ figure.img-fit img{height: 100%; width: 100%; object-fit: cover;}
   :root {
     --font26:normal 1.11rem/1.77rem var(--open-sans);
   }
-
+.fsize-5 {
+    font-size: 1.5rem;
+}
 } /*991px-css-end*/
 
 @media (max-width: 767px){
-
+.fsize-5 {font-size: 1.4rem;}
 }/*767px-css-end*/
 
-@media (min-width: 575px){
+@media (max-width: 575px){
+.fsize-5 {font-size: 1.2rem;}
 
 }/*575px-css-end*/
 

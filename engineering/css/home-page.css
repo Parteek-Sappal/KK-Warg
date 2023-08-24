@@ -86,5 +86,8 @@ position: absolute; inset: 0}
 .quality-building-education span {font-size: 1.27rem; font-weight: 700; line-height: 1.3; display: block; margin-bottom: 1.35rem;}
 .quality-education figure img{height: 100%; object-fit: cover; max-height: 1200px; object-position: bottom;}
 .quality-building-education a.btn-circle{margin-inline: auto}
-
-
+.why_desktop{display:block;}
+.academics-bachelor-thumb h4 span, .why_slider_mob { display:none;}
+.why_slider_mob h4{display:none;}
+.quality-education figure.mob_img{display:none;}
+.quality-education figure.desk_img{display:block;}

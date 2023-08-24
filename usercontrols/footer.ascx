@@ -6,8 +6,8 @@
                     <div class="footer-content footer-contact">
                         <a href="/index.aspx" class="logo-footer"><img class="img-fluid" src="/images/kk-wagh-logo.png"></a>
                         <p>Hirabai Haridas Vidyanagari, Amrutdham, Panchavati, Nashik – 422003</p>
-                        <p><a href="tel: +91 253 2512876">+91 253 2512876</a> / <a href="tel: +91 253 2512867">+91 253 2512867</a></p>
-                        <p><a href="mailto:kkwieer@kkwagh.edu.in">kkwieer@kkwagh.edu.in</a><a href="kkwe_office@dataone.in">kkwe_office@dataone.in</a></p>
+                        <p><a href="tel: +91 253 2512876" class="cta__number">+91 253 2512876</a> / <a href="tel: +91 253 2512867" class="cta__number">+91 253 2512867</a></p>
+                        <p><a href="mailto:kkwieer@kkwagh.edu.in" class="cta__email">kkwieer@kkwagh.edu.in</a><a href="kkwe_office@dataone.in" class="cta__email">kkwe_office@dataone.in</a></p>
                     </div>
                 </div>
                 <div class="col-xl-9">
@@ -29,7 +29,7 @@
                                     <li><a href="cpage.aspx?mpgid=2&amp;pgidtrail=15">Sponsored Awards</a></li>
 								</ul>
                                <!--  <h5 class="footer-heading"><a href="#">Testimonials</a></h5> -->
-                                <h5 class="footer-heading"><a href="/cpage.aspx?mpgid=44&pgidtrail=45">Placements</a></h5>
+                               
                             </div>
                         </div>
                         <div class="col-lg-3">
@@ -40,16 +40,25 @@
                                     <li><a href="#">Junior College</a></li>
                                     <li><a href="#">Diploma Schools</a></li>
                                 </ul>
+								 <h5 class="footer-heading"><a href="">Academics</a></h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="/course-list-group.aspx?mpgid=30&pgidtrail=30">Courses</a></li>
+                                    <li><a href="/faculty.aspx?mpgid=60&pgidtrail=60">Faculty & Research</a></li>
+                                </ul>
                                 <h5 class="footer-heading"><a href="/cpage.aspx?mpgid=71&pgidtrail=71">ERP Login</a></h5>
                                 <h5 class="footer-heading"><a href="/cpage.aspx?mpgid=70&pgidtrail=70">Admissions</a></h5>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="footer-content">
-                                <h5 class="footer-heading"><a href="">Academics</a></h5>
+                                <h5 class="footer-heading"><a href="">Facilities</a></h5>
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#">Courses</a></li>
-                                    <li><a href="#">Faculty & Research</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgid1=24&pgidtrail=212">Sports Facilities</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgidtrail=25">Medical Facilities</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgidtrail=26">Transport Facilities</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgidtrail=27">Hostel Facilities</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgidtrail=28">Services</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=22&pgidtrail=29">Other Facilities</a></li>
                                 </ul>
                                 <h5 class="footer-heading"><a href="">LIfe @ KK Wagh</a></h5>
                                 <ul class="list-unstyled mb-0">
@@ -65,10 +74,19 @@
                         </div>
                         <div class="col-lg-3 d-none d-lg-flex">
                             <div class="footer-content">
+								 <h5 class="footer-heading"><a href="">Placements</a></h5>
+								 <ul class="list-unstyled mb-0">
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=45">Overview</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=46">Career Counseling</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=47">Placement Policy</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=55">Career Academy</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=56">Placement Gallery</a></li>
+                                    <li><a href="/cpage.aspx?mpgid=44&pgidtrail=58&tesid=6">FAQ's</a></li>
+                                </ul>
                                 <h5 class="footer-heading">Others</h5>
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Declaration</a></li>
+                                    <!-- <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Declaration</a></li> -->
                                     <li><a href="#">Newsletters</a></li>
                                     <li><a href="#">Sitemap</a></li>
                                     <li><a href="#">Disclaimers</a></li>

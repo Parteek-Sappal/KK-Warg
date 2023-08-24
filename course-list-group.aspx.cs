@@ -25,7 +25,7 @@ public partial class course_list_group : System.Web.UI.Page
             dpid.Items[0].Text = "Select Stream";
             clsm.Fillcombo_Parameter("select levelname,levelid from courselevel_master where status=1 order by displayorder", parameters, courselevel_master);
             courselevel_master.Items[0].Text = "Select Level";
-            BindData();
+           BindData();
         }
     }
     private void BindData()
@@ -34,13 +34,17 @@ public partial class course_list_group : System.Web.UI.Page
         int cnt;
         parameters.Clear();
         strmain = "select courseid,coursename,shortdesc,noofsemestor,d.dpname from course c left join discipline_master d on c.dpid=d.dpid left join courselevel_master l on c.levelid=l.levelid where c.status=1  ";
-        if (Conversion.Val(dpid.SelectedIndex) != 0)
+        if (Conversion.Val(dpid.SelectedValue) > 0)
         {
-            strmid = " and d.dpid= " + Conversion.Val(dpid.SelectedIndex);
+            strmid = " and d.dpid= " + Conversion.Val(dpid.SelectedValue);
         }
-        if (Conversion.Val(courselevel_master.SelectedIndex) != 0)
+        if (Conversion.Val(courselevel_master.SelectedValue) > 0)
         {
-            strmid += " and c.levelid= " + Conversion.Val(courselevel_master.SelectedIndex);
+            strmid += " and c.levelid= " + Conversion.Val(courselevel_master.SelectedValue);
+        }
+        if (Conversion.Val(Request.QueryString["levelid"]) > 0)
+        {
+            strmid += " and c.levelid= " + Conversion.Val(Request.QueryString["levelid"]);
         }
         strlast += " order by c.displayorder";
         strsql = strmain + strmid + strlast;
@@ -72,7 +76,7 @@ public partial class course_list_group : System.Web.UI.Page
             {
                 parameters.Clear();
                 parameters.Add("@courseid", Conversion.Val(litcourseid.Text));
-                clsm.repeaterDatashow_Parameter(rptcollege, "select c.collageid,collagename from map_course_institute m left join collage_master c on m.collageid=c.collageid where m.courseid=@courseid and c.status=1 order by c.displayorder", parameters);
+                clsm.repeaterDatashow_Parameter(rptcollege, "select distinct c.collageid,collagename from map_course_institute m left join collage_master c on m.collageid=c.collageid where m.courseid=@courseid and c.status=1 ", parameters);
             }
             parameters.Clear();
             parameters.Add("@courseid", Conversion.Val(litcourseid.Text));

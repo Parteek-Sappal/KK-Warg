@@ -5,7 +5,7 @@
     .award-box{padding-inline: 2.5rem}
     .reference p strong{display: inline; margin-top: 0rem;}
     .overview .row .row{--bs-gutter-x: 3.33rem}
-.bord-of-directors .row {--bs-gutter-x: 3rem;}
+
 }/*767px-css-end*/
 @media (min-width: 768px){
     .inner-title .section-heading .section-title{font-size: 2.4rem;}
@@ -106,9 +106,8 @@
 	.golden-jublee .golden-jublee-inner {flex-direction: row;row-gap: 0;column-gap: 8rem;}
 	.golden-jublee .golden-jublee-inner {text-align: left;}
 	.golden-jublee .golden-jublee-inner .left-content::after {content: '';position: absolute;right: -4rem;top: 0;height: 100%;width: 1px;background: #dbdbdb;}
-	.inner-header ul {
-    column-gap: 2rem;
-}
+	.inner-header ul {column-gap: 2rem;}
+.bord-of-directors .row {--bs-gutter-x: 3rem;}
 } /*1399px-css-end*/
 @media (min-width: 1400px){
     .overview .left-content{padding-right: 6rem;}
@@ -152,13 +151,190 @@ main{margin-top: 140px}
 .shops-left {padding-right: 4rem;}
 .grp-discussion {margin-top: 3rem;}
 .offered-courses .text-yellow:after {left: 100%;}
+.medical-left-content {padding-right: 20px;margin-bottom: 25px;}
+.medical-facilities-right{padding-left: 20px;}
+.facility-contact-area {padding: 25px 25px;margin-top: 27px;}
+}
+
+@media (max-width: 1199px){
+.milestone-right {padding-left: 30px;padding-right: 0;}
+.milestone-mid .stats-xl span[data-count] {font-size: 6rem;}
+.milestone-mid p {max-width: 100%;}
+.milstone-gallery p {max-width: 100%;margin-top: 10px;padding-left: 10px;}
+.milstone-gallery abbr {font-size: 15px;padding-left: 12px;}
+.milstone-gallery {min-height: 450px;}
+.milestone-botm {padding: 5rem 0;}
+.legacy-text {max-width: 100%;}
+.chairman_profile .chprof_content {padding:0 2rem;}
+.chairman_profile .chprof_content::before,.facilities-innovation-top:before,.facility-engineering-content.innovation2 p:before{display:none;}
+.faculties_cont {padding: 1rem;}
+.faculties_cont span {font-size: 1.1rem;}
+.acc_recognitions ul {grid-column-gap: 2rem; grid-row-gap: 3rem;}
+.acc_recognitions ul li figure {height: 7rem;}
+.quad-bike blockquote {margin-bottom: 2rem;}
+.quad-bike {padding-top: 0rem; padding-left: 1rem;}
+.karmyogi-awards {padding-top: 0;}
+.tech-camp-right {padding: 0 0rem;}
+.facilities-innovation-right,.facility-engineering-content {padding-left: 10px;}
+.facilities-innovation-right p {padding-bottom: 0rem;}
+.facilities-innovation-mid {padding: 5rem 0 4rem;}
+.innovation-labs {padding-top: 0rem;padding-bottom: 3rem;}
+.facility-engineering-content.innovation {padding: 1.5rem 0 0 0;}
+.list-unstyled.custom-bullets.bullet-yellow.flex-list2 {margin-bottom: 0px;}
+.facility-engineering-content.innovation2 p {margin-bottom: 2rem;}
+.innovation-botm-right {padding-left: 0rem;}
+.facilities-innovation-botm {padding: 5rem 0;}
+.facility-engineering-content.innovation blockquote:before {left: auto;}
+.workshop-text {margin: 2rem 0;}
+.shops-left {padding-right: 0rem;}
+.workshop4 blockquote {padding: 1rem 0;}
+.section-heading {margin-bottom: 2rem;}
+.bike-rally .stats [data-count]::after{display:none;}
+.kusumright1 {padding-left: 0rem;}
+.kusumraj-library .tab-content {margin-top: 2rem;}
+.kusumraj-table .section-heading, .gurukul-boys .section-heading {padding-top: 3rem;}
+.kusum {border-left: 0px solid #e3e3e3;padding-left: 0;margin-left: 0rem;}
+.value-and-strength .value_stleft p {padding-right: 0rem; margin-bottom: 3rem;}
+.value-and-strength blockquote {margin-bottom: 0rem;}
+.facilities-sports-bottom-sec {margin: 0rem 0;}
+.left-content-sports {padding-right: 20px;}
+.kusumraj-library.sports-tabing {padding: 5rem 0;}
+.top-section.facilities-sports h4 {max-width: 80%;}
+.overview .left-content{padding-right: 0rem;margin-block: 0rem;}
+.overview .right-content p {margin-top: 0;}
+.container.overview {padding-right: var(--bs-gutter-x,.75rem); padding-left: var(--bs-gutter-x,.75rem);}
+.facility-fact-school{margin: 2rem 0;}
+.overview-text {padding-right: 0;}
+.transport-botm {padding: 100px 0;}
+.transport-botm img {margin-top: 0;}
+.trasport-botm-left {padding-right: 40px;}
+.trasport-fact {padding: 50px 0 0px;padding-right: var(--bs-gutter-x,.75rem); padding-left: var(--bs-gutter-x,.75rem);}
+.top-section.transport-overview h4 {max-width: 80%;margin: 0px auto 50px;}
 }
 
 @media (max-width: 991px){
-.impact-stories .tab-content>.tab-pane {display: block;opacity: 1;  }
+.impact-stories .tab-content>.tab-pane,.kusumraj-section .tab-content>.tab-pane {display: block;opacity: 1;  }
+.kusumraj-section .accordion-button:not(.collapsed) {color: #fff;background-color: var(--color-yellow); box-shadow: none;}
+.value-and-strength .value_stleft p,.objective_wrap .objective_content {padding-right: 0rem;}
+.laterother_wrap .later_content{padding-left: 0rem;}
+.objective_wrap .grid2_column {margin-top: 1.2rem;}
+.slider_overwrap blockquote {padding: 3rem 0 0 0; border-left: 0px solid #dfdfdf; }
+.overview .row .stats,.stats.stats-xl,.overview .row .stats::before,.milestone-mid .stats.stats-xl {width: 100%;}
+.counter_wrap{height: auto;}
+.value_stleft .img-fit {height: auto;}
+.about_overviw_slider .slide-item p{max-width: 100%;}
+.milestone-right {padding-left: 0;padding-top: 2rem;}
+.milestone-mid .stats.stats-xl:before,.trasport-fact-left::before{display:none;}
+.legacy-text {max-width: 100%;margin-bottom: 3rem;}
+.chairman_profile .chairman_row::before {top: 25%;}
+.chairman_profile .chprof_content {padding: 0rem;padding-top: 2rem;}
+.extera_para {padding: 2rem 0 0rem;}
+.facultymodal .modal-body {padding: 1rem;}
+.faculty-details img {width: 100%;}
+.accreditation_wrap ul {grid-template-columns: repeat(2, 1fr);grid-row-gap: 1rem; padding: 3rem 0 2rem;}
+.polytechnic_nashik {padding: 4rem 0 5rem;}
+.polytechnic_nashik figure {margin-top: 2rem;}
+.polytechnic_nashik figure img{height: auto;}
+.best_student ul {grid-column-gap: 3rem;}
+.cenersm_heading,.cenerlg_heading {padding: 0 0rem;}
+.best_student {padding: 4rem 0 1rem;}
+.acc_patent .accpatent_content {padding-left: 0;}
+.agriculture_colleges .cenerlg_heading blockquote span { display: inline;}
+.agriculture_colleges ul {grid-template-columns: repeat(2, 1fr);grid-column-gap: 1rem;grid-row-gap: 2rem;}
+.agriculture_colleges {padding: 3rem 0 5rem 0;}
+.acc_hackathon { padding: 2rem 0 1rem;}
+.institute blockquote {max-width: 100%;padding: 1.5rem;position: relative;bottom: 0; left: 0;    font-size: 1.4rem;}
+.award-table {margin-top: 0;padding-top: 4rem;}
+.quad-torc {padding-top: 0;padding-bottom: 3rem;}
+.eng-school {margin-top: 2rem;}
+.quad-bike {padding-left: 0rem;}
+.awards1 {padding-top: 0;}
+.award-people {margin-bottom: 2rem;}
+.tech-camp-right,.facility-text-found,.medical-facilities-right {margin-top: 1rem;}
+.tech-camp {margin-top: 2rem;}
+.facilities-innovation-right, .facility-engineering-content,.kala-text,.facility-text{padding-left: 0;padding-top: 1rem;}
+.facilities-innovation-mid h4 {max-width: 100%;}
+.library-infrastructure.engineering {padding: 4rem 0;}
+.list-unstyled.custom-bullets.bullet-yellow.flex-list2 li {padding-left: 1rem;padding-right: 0.5rem;margin-bottom: 30px;}
+.facility-engineering-content.innovation {padding: 0rem 0 0 0;}
+.facility-engineering-content.innovation blockquote {margin-bottom: 20px;}
+.innovation-botm-right,.innovation-botm-left {margin-top: 0rem;}
+.facilities-innovation-botm h4 {margin-bottom: 2rem;}
+.shops-left {margin-bottom: 2rem;}
+.workshop3.bike-rally {text-align: left;}
+.archietect-inner{margin: 0rem;}
+.mb-5 {margin-bottom: 2rem!important;}
+.shop7 {margin-bottom: 1rem;}
+.stats span[data-count] {margin-bottom: 0rem;}
+.workshop4,.test-centre-left, .unnat-bharat-rally ul {margin-top: 1rem;}
+.lib-center {margin-top: 0; margin-bottom: 1.5rem;}
+.value_stleft li figure {margin: 0;}
+section {padding: 4rem 0;}
+.value-and-strength .value_stleft p {margin-bottom: 2rem;}
+.top-section.facilities-sports h4 {max-width: 100%;margin:0rem auto 0rem;}
+.facilities-sports {padding-bottom: 5rem;}
+.facility-text.sports {max-width: 100%;margin-bottom: 1rem;}
+.left-content-sports {padding-right: 0;}
+.left-content-sports p {margin-bottom: 50px;}
+.left-content-sports p:before {bottom: -25px;}
+.kusumraj-library .accordion-item {margin-bottom: 1rem;}
+.kusumright1 h4 {margin-bottom: 0.5rem;}
+.gymkhana .col-lg-6 {margin: 0;}
+.play-gym.play-gym1 {margin-top: 0;}
+.medical-facilities-right {padding-left: 0;}
+.medical-mid {padding: 0px 0;}
+.medical-mid .row {align-items: center;}
+.right-content {margin-top: 2rem;padding-right: 0px}
+.emergency-num-detail {margin-bottom: 20px;}
+.medical-botm h4 {margin-bottom: 50px;}
+.top-section.transport-overview h4 {max-width: 100%;}
+.trasport-fact-right {padding-left: 0;    margin-top: 1rem;}
+.transport-botm {padding: 30px 0 80px 0;}
+.right-content.trasport-botm-left {margin-bottom: 2rem;}
+.trasport-fact {padding: 30px 0 0px;}
+.gurukul-img {margin-bottom: 5rem;}
+.kusumright1.other {padding-left: 0rem;}
+.facility-content.other h4 {margin-bottom: 10px;margin-top: 10px;}
+.facility-content.other p.pdb-20 {padding-bottom: 10px;}
+.facility-content.other p.pdt-50 {padding-top: 10px;}
+.kusumraj-library.other-facilities-tabing .accordion-body{padding-bottom:1.5rem!important;}
+.kusumraj-library.other-facilities-tabing {margin-top: 50px;}
+}
+
+@media (max-width:767px){
+.accreditation_wrap .logo_content figure, .acc_naclogo .logo_content figure {width: 20rem;}
+.acc_recognitions ul {grid-template-columns: repeat(2, 1fr);}
+.section.top-section {padding-bottom: 1rem;}
+.awards .col-md-6:first-child .institute {margin-bottom: 2rem;}
+.institute1 {margin-bottom: 3rem;}
+section {padding: 3rem 0;}
+.list-unstyled.custom-bullets.bullet-yellow.flex-list2 li {width: 50%;}
+.facilities-innovation-right h4, .facilities-innovation-right p {padding-bottom: 0rem;}
+.font-16 {line-height: 24px;}
+
 }
 
 
-
-
+@media (max-width: 575px){
+.chairman_profile .chairman_row::before {top: 15%;height: 15rem;}
+.inner-title .section-heading .section-title {font-size: 1.7rem;}
+.acc_recognitions ul {grid-template-columns: repeat(1, 1fr);text-align: center;}
+.acc_recognitions ul li::before {right: 0;margin: 0 auto;}
+.accreditation_wrap .logo_content, .acc_naclogo .logo_content {flex-direction: column;text-align: center;}
+.accreditation_wrap .logo_content blockquote, .acc_naclogo .logo_content blockquote {padding-left: 0rem;}
+.accreditation_wrap ul {padding: 0rem 0 0rem;}
+.polytechnic_nashik .polnas_content {padding-right: 0rem; height: auto;}
+.best_student ul ,.agriculture_colleges ul,.accreditation_wrap ul{grid-column-gap: 0rem;text-align: center; grid-template-columns: repeat(1, 1fr);}
+.team_member .comnul_list li {width: 50%;padding-right: 0rem;}
+.team_member {margin: 2rem 0;}
+.agriculture_colleges ul li::after,.accreditation_wrap ul li::before {right: 0; margin: 0 auto;}
+.inovation-lab-part {padding-bottom: 1rem;margin-top: 1rem;}
+.stats-xl span[data-count], .award-facts blockquote {font-size: 5rem;}
+.workshop-facts span[data-count] {font-size: 40px;}
+.workshop-facts {height: auto;padding: 2rem 0;margin-top: 1rem;}
+.value_stleft {margin-bottom: 1rem;}
+.value-and-strength .value_stleft ul {grid-template-columns: repeat(1, 1fr);grid-gap: 1rem;}
+.facility-fact-school img {margin-bottom: 1rem;}
+.facility-fact-school {margin: 2rem 0 0 0;}
+}
 

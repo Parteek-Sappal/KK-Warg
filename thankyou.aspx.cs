@@ -13,26 +13,26 @@ public partial class thankyou : System.Web.UI.Page
         {
             if (Request.QueryString["msg"] == "Sub")
             {
-                lblsuccess.Text = "Thank you ! You have successfully subscribed for Us.";
+                lblsuccess.Text = "Thank you ! You have Successfully Subscribed for Us.";
             }
             if (Request.QueryString["msg"] == "order")
             {
-                lblsuccess.Text = "Your Enquiry  has been successfully submitted. <br>Our representative will contact you soon.<br><br>";
+                lblsuccess.Text = "<p class='fsize-3 font-heading text-prime'>Your Enquiry  has been Successfully Submitted.</p> <p class='fsize-5'>Our representative will contact you soon.</p>";
 
             }
             if (Request.QueryString["msg"] == "thankyou")
             {
-                lblsuccess.Text = "Your Enquiry  has been successfully submitted. <br>Our representative will contact you soon.<br><br>";
+                lblsuccess.Text = "<p class='fsize-3 font-heading text-prime'>Your Enquiry  has been Successfully Submitted.</p> <p class='fsize-5'>Our representative will contact you soon.</p>";
             }
 
             if (Request.QueryString["msg"] == "apply")
             {
-                lblsuccess.Text = "Your Enquiry  has been successfully submitted. <br>Our representative will contact you soon.<br><br>";
+                lblsuccess.Text = "<p class='fsize-3 font-heading text-prime'>Your Enquiry  has been Successfully Submitted.</p> <p class='fsize-5'>Our representative will contact you soon.</p>";
             }
 
             if (Request.QueryString["msg"] == "job")
             {
-                lblsuccess.Text = "Thank you ! Your Application has been successfully submitted. <br>Our representative will contact you soon.<br><br>";
+                lblsuccess.Text = "<p class='fsize-3 font-heading text-prime'>Your Enquiry  has been Successfully Submitted.</p> <p class='fsize-5'>Our representative will contact you soon.</p>";
             }
 
 

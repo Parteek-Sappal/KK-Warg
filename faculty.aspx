@@ -13,7 +13,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+                  
+                  <ul class="filter-abc wow fadeInUp" data-wow-delay=".5s">
+                   <asp:Repeater ID="repftype" runat="server" OnItemDataBound="repftype_OnItemDataBound" OnItemCommand="repftype_ItemCommand" >
+                        <ItemTemplate>
+                       <li runat="server" id="liclass">
+                            <asp:LinkButton ID="lnkfid" CommandName="cmdfid" CommandArgument='<%#Eval("fid")%>'
+                                runat="server"><%#Eval("facultytype")%></asp:LinkButton>
+                        </li>
+                            <asp:Literal ID="lifid" runat="server" Visible="false" Text='<%#Eval("fid")%>'></asp:Literal>
+                            
+                        </ItemTemplate>
+                        </asp:Repeater>
+                  </ul>
                         <ul class="filter-abc wow fadeInUp" data-wow-delay=".5s">
+                         
+
+
+
                         <asp:Repeater ID="rptalpha" runat="server" OnItemDataBound="rptalpha_OnItemDataBound" OnItemCommand="rptalpha_ItemCommand">
                         <ItemTemplate>
                        <li runat="server" id="liclass">
@@ -21,7 +38,7 @@
                                 runat="server"><%#Eval("alpha")%></asp:LinkButton>
                         </li>
                             <asp:Literal ID="litalpha" runat="server" Visible="false" Text='<%#Eval("alpha")%>'></asp:Literal>
-                            </li>
+                          
                         </ItemTemplate>
                         </asp:Repeater>
                         </ul>

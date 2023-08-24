@@ -7,10 +7,10 @@
                         <a href="/engineering/index.aspx" class="logo-footer"><img class="img-fluid"
                                 src="/images/footer-logo.png"></a>
                         <p>Hirabai Haridas Vidyanagari, Amrutdham, Panchavati, Nashik – 422003</p>
-                        <p><a href="tel: +91 253 2512876">+91 253 2512876</a> / <a href="tel: +91 253 2512867">+91 253
+                        <p><a href="tel: +91 253 2512876"  class="cta__number">+91 253 2512876</a> / <a href="tel: +91 253 2512867"  class="cta__number">+91 253
                                 2512867</a></p>
-                        <p><a href="mailto:kkwieer@kkwagh.edu.in">kkwieer@kkwagh.edu.in</a><a
-                                href="kkwe_office@dataone.in">kkwe_office@dataone.in</a></p>
+                        <p><a class="cta__email" href="mailto:kkwieer@kkwagh.edu.in">kkwieer@kkwagh.edu.in</a><a
+                                href="kkwe_office@dataone.in" class="cta__email">kkwe_office@dataone.in</a></p>
                     </div>
                 </div>
                 <div class="col-xl-9">

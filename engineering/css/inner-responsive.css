@@ -397,3 +397,139 @@
 @media (hover: hover){
     .nav-tabs .nav-item a:hover:after{transform: scaleX(1);}
 }
+
+
+@media (max-width: 1599px){
+	
+.vision-mission p.lead { font-size: 2.4rem;}	
+
+
+}
+
+
+@media (max-width: 1199px){
+	
+.vision-mission p.lead { font-size: 2rem;}
+.offered-programs {padding-top: 3rem;}
+.offered-programs .section-title {font-size: 2rem;}
+.student-resident.facility-section .content h4{font-size:1.5rem;}
+.student-chapter.sc-iet{ padding-top:1rem;}
+.transport-contact .container { padding-top: 1rem;}
+
+
+
+}
+	
+@media (max-width: 991px){
+	.about-department { padding-top: 3.6rem; margin-top: 3.6rem;}
+	.student-resident .row {--bs-gutter-y: 0rem;}
+	.about.section-type-1 .container>.row:first-child { margin-bottom: 1rem;}
+	.about {padding:3rem;}
+	.vission-mission .vm-content { padding: 4rem 4rem;}
+	.stats span.desc { font-size: 2.1rem;}
+	.doc-container .doc-thumb figure img {width: 100%;}
+	.inner-title-2 .section-heading {  padding-bottom: 0rem;border-bottom: none; }
+	.directors-desk .content { padding-top: 3rem;}
+	.directors-desk h4 {padding-top: 0;}
+	:where(.golden-jublee, .bike-rally) .stats.stats-xl { min-width: 500px;}
+	.recognition-and-achienement.institute.top-section figure { margin: 0px auto;}
+	.top-section.recognition-and-achienement.institute{ text-align: center;}
+	.department_top_section { padding-top: 3rem; padding-bottom:4rem;}
+	.why-us {padding-bottom: 1rem;}
+	.offered-programs { padding-bottom: 1rem;}
+	.vision-mission{ padding-bottom:2rem;}
+	.recruiters h4::before{display:none;}
+	.mandatory-report .col-md-4{margin-bottom:2rem;}
+	.featured-news img{width:100%;}
+	.hostal-events .hostalEvents :where(.swiper-button-prev, .swiper-button-next) { left: 40%;}
+	.declairation h5{margin-top:2rem;}
+	.student-resident .additional-info {margin-bottom: 4rem;}
+	.cara-auto { margin-top: 30px;}
+	.councelling-eligibility{padding-bottom:2rem;}
+	.health-councelling .section-heading{ margin-bottom:2rem;}
+	.nss-main .section-heading{    margin-bottom: 1rem;}
+	.nss-badge{padding-top:3rem;}
+	.nss-objective.nss-motto{padding:4rem 0;}
+	.element-inner{margin-top:2rem;}
+	.panel-body{padding:1rem;}
+	.nss-advisiory{padding-bottom:2rem;}
+	.nss-symbol .img-fit img{  width: inherit;}
+	.prayas-main{ padding-bottom:1rem;}
+	.prayas-objective .registration { margin-top: 1.33rem;}
+	.clubs-main{padding-bottom:3rem;}
+	.transport .stats.stats-xl { width: min(80%, 100%); margin:20px auto 0;}
+	.transport .stats-xl span[data-count] { font-size: 8rem;}
+	.transport .stats span.desc {font-size: 1.5rem;}
+	.transport-route .panel-body .row {--bs-gutter-y: 3rem;}
+	
+	
+	
+	}
+	
+	
+@media (max-width: 767px){
+	.affliation{padding-top:0;}
+	.prayas-main{ padding-bottom:0;}
+	.clubs-main{padding-bottom:1rem;}
+		
+}
+	
+	
+@media (max-width: 575px){
+.club-report .facility-content ul { row-gap: 1rem;}
+.canteen .statistics::before{display:none;}
+.statistics .stats.stats-xl span[data-count] {font-size: 5rem;}
+.student-resident .content { padding: 2rem 2rem;}
+.doc-container .doc-thumb figure img { height: 100%;}
+.about { padding: 3rem 0rem;}
+.about-department { padding-top: 2.6rem; margin-top: 2.6rem;}
+.institute-usp .stats span[data-count] { font-size: 4.67rem;}
+.stats-xl span[data-count] { font-size: 6rem;}
+.bike-rally .stats span.desc, .golden-jublee .stats span.desc{font-size: 1.6rem;line-height: 2rem;}
+:where(.golden-jublee, .bike-rally) .stats.stats-xl { min-width: 90%;}
+.bike-rally .stats span.desc, .golden-jublee .stats span.desc {font-size: 1.2rem;line-height: 1.8rem;}
+.awards-list .row{ text-align:center;}
+.why-us .fact-slider .stats [data-count]{font-size:7rem;}
+.happening.department-home_happening h3{    font-size: 2rem; margin-top:3rem;} 
+.swiper-button-prev, .swiper-button-next { bottom: 2%;}
+.hostal-events .hostalEvents :where(.swiper-button-prev, .swiper-button-next) { left: 47%;}
+
+
+
+
+}
+
+
+@media (max-width: 480px){
+.home-testimonials .testimonials-content blockquote { font-size: 1.4rem;}
+.directors-desk .container::before, .directors-desk .container::after { top: 5rem;height: 25rem;}
+.directors-desk h4 { margin-bottom: 1.33rem;}
+
+
+}
+@media (max-width: 414px){
+	.directors-desk .container::before, .directors-desk .container::after { top: 5rem;height: 18rem;}
+	
+	
+	}
+
+@media (max-width: 360px){
+.fsize-5 {font-size: 1.4rem;}
+.vission-mission {margin-top: 2.5rem;}
+.vission-mission .vm-content {padding: 3rem 3rem;}
+.affliation .section-heading { margin-bottom:2rem;}
+.directors-desk .container::before, .directors-desk .container::after { height: 17rem;}
+.golden-jublee figure { margin-top: 2rem;}
+.vision-mission p.lead { font-size: 1.6rem;}
+.recruiters h4 { margin-bottom: 1rem;}
+.home-infrastructure .infra-thumb:not(.with-image) .thumb-desc {padding: 3.5rem 2.2rem;}
+.happening.department-home_happening h3 { font-size: 1.6rem;}
+.girls-hostal .stats-xl span[data-count], .admission-process.hostal .stats-xl span { font-size: 5rem;}
+.hostal-events .section-heading{    margin-bottom: 3rem;}
+
+
+
+}
+
+
+

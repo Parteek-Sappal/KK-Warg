@@ -1111,3 +1111,9 @@ body .lightbox .lb-data .lb-caption{color: #232323; font-size: 1.1rem; padding-b
 .mandatory-report .custom-bullets.bullet-red li {
     border-bottom: none;
 }
+.top-section.recognition-and-achienement.institute{ padding-top:1.5rem;}
+.facility-content.achivement{margin-top:2rem;}
+.innovation-center.achivement ul li{border-bottom:none;}
+.nss-report.club-report.iot-club .section-heading{ margin-top:3rem;}
+.club-report .container.bg-prime-dark {z-index: -9; margin-top: -30px;}
+.club-report .financial-club .container{z-index: -9; margin-top: -30px; }

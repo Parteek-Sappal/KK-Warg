@@ -111,10 +111,7 @@
         <tr>
             <td colspan="2">
                 <table border="0" cellpadding="1" cellspacing="0" style="width: 100">
-
-               
-
-                    <tr style="display:none;">
+                    <tr>
                         <td align="right" valign="top" width="15%">
                            Faculty Type <%--Academic Designation--%> <span class="star">*</span> : &nbsp;
                         </td>

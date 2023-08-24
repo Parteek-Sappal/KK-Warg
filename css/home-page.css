@@ -1,7 +1,7 @@
 body.submenu-open .menu-link {color:#fff;}
 body.submenu-open .navbar-brand img {filter: brightness(0) invert(1);}
 .home-banner-slider figure{margin-bottom: 0; position: relative;}
-.home-banner-slider figure::before{content: ''; position: absolute; inset: 0; background-image: linear-gradient(to bottom, rgba(255,255,255,.7)10%, rgba(255,255,255,0)20%);}
+.home-banner-slider figure::before{content: ''; position: absolute; inset: 0; background-image: linear-gradient(to bottom, rgba(255,255,255,.5)10%, rgba(255,255,255,0)28%);}
 .home-banner-slider figure img{width:100%; height: 100vh; max-height: 1200px; min-height: 600px; object-fit: cover; object-position: top;}
 .home-banner-slider .slide-item{position: relative;}
 .home-banner-slider .slide-content{position: absolute; inset: 0; display: flex; align-items: center;}
@@ -158,3 +158,5 @@ body.submenu-open .navbar-brand img {filter: brightness(0) invert(1);}
 .testimonials-content .designation{text-align: center; display: block;}
 .home-testimonials .testimonials-image{margin-bottom: 0; height: 100%}
 figure.testimonials-image img {height: 100%;object-fit: cover; object-position: top;}
+.facilities .pannel-content img {width: auto!important;height: auto!important; min-width: auto!important;min-height: auto!important;}
+.notices .slide-item a{font-size:1rem;}

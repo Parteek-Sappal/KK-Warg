@@ -16368,3 +16368,870 @@ Source: System.Web
 TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
 -----------------------------------------------------------
 
+Time: 19/08/2023 02:45:43 PM
+-----------------------------------------------------------
+Message: A potentially dangerous Request.Path value was detected from the client (:).
+StackTrace:    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+Source: System.Web
+TargetSite: Void ValidateInputIfRequiredByConfig()
+-----------------------------------------------------------
+
+Time: 19/08/2023 05:45:05 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_frg3ofk5.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_bx3tffy3.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 05:45:07 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_frg3ofk5.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_bx3tffy3.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 05:45:09 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_frg3ofk5.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_bx3tffy3.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 06:39:35 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_5dm1yur2.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_mavbsizi.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 06:39:36 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_5dm1yur2.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_mavbsizi.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 06:39:37 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_5dm1yur2.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_mavbsizi.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 19/08/2023 06:39:39 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_5dm1yur2.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_mavbsizi.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 10:25:56 AM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_vnw2rleu.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_200scudg.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 10:25:58 AM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_vnw2rleu.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_200scudg.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 10:25:59 AM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_vnw2rleu.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_200scudg.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 10:53:28 AM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:19:56 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:19:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:20:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:20:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:20:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:20:01 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_duh3a4pw.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_i4d0tdlq.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:26:33 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_uatjc01i.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_rgms1uto.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.get_Master()
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.careers_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:26:37 PM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:26:38 PM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:26:38 PM
+-----------------------------------------------------------
+Message: The requested script resource 'ExtenderBase.BaseScripts.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.ScriptReference.GetUrlInternal(ScriptManager scriptManager, Boolean zip, Boolean useCdnPath)
+   at System.Web.UI.ScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrlInternal(System.Web.UI.ScriptManager, Boolean, Boolean)
+-----------------------------------------------------------
+
+Time: 21/08/2023 12:26:38 PM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:52 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:54 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:55 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:56 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:56 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:57 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:57 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:57 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:58 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:58 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:58 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:58 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:50:59 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:51:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:51:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:51:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:51:00 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 01:51:01 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\layouts\inner.master(15): error CS0433: The type 'ASP.usercontrols_seosection_ascx' exists in both 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_jrr51w52.dll' and 'c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bc9afe67\8e4dc368\App_Web_xsmtnyf1.dll'
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult PostProcessFoundBuildResult(System.Web.Compilation.BuildResult, Boolean, System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 03:05:55 PM
+-----------------------------------------------------------
+Message: e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\index.aspx.cs(231): error CS1002: ; expected
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+-----------------------------------------------------------
+
+Time: 21/08/2023 03:21:01 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 21/08/2023 03:50:11 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 21/08/2023 04:34:03 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 21/08/2023 04:41:29 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 22/08/2023 09:20:39 AM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 22/08/2023 12:32:33 PM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 22/08/2023 01:53:52 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 22/08/2023 01:53:56 PM
+-----------------------------------------------------------
+Message: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+StackTrace:    at mainclass.repeaterDatashow_Parameter(Repeater repeater, String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2603
+   at course_list_group.BindData() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 52
+   at course_list_group.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\course-list-group.aspx.cs:line 28
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: Void repeaterDatashow_Parameter(System.Web.UI.WebControls.Repeater, System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 22/08/2023 02:04:08 PM
+-----------------------------------------------------------
+Message: Incorrect syntax near 'phd'.
+StackTrace:    at mainclass.senddataset_Parameter(String stored_text, Hashtable parameters) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\App_Code\mainclass.cs:line 2670
+   at search.GetDataTable() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\search.aspx.cs:line 201
+   at search.BindItemsList() in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\search.aspx.cs:line 31
+   at search.Page_Load(Object sender, EventArgs e) in e:\WEB APPLICATION\PROJECTS 2010\KK Wagh\kkwagh\search.aspx.cs:line 26
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: .Net SqlClient Data Provider
+TargetSite: System.Data.DataSet senddataset_Parameter(System.String, System.Collections.Hashtable)
+-----------------------------------------------------------
+
+Time: 23/08/2023 11:48:49 AM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+
+Time: 23/08/2023 12:25:59 PM
+-----------------------------------------------------------
+Message: The requested script resource 'Common.Common.js' requires version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e' of the ASP.NET AJAX Framework. To use this resource, make sure that the application references version 'AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e'.
+StackTrace:    at System.Web.UI.CompositeScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: System.Web.Extensions
+TargetSite: System.String GetUrl(System.Web.UI.ScriptManager, Boolean)
+-----------------------------------------------------------
+

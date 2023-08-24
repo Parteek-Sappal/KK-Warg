@@ -18,7 +18,9 @@ p{font-size: 1rem; line-height: 1.5;font-weight: 400;color: var(--text-clr);font
 .inner-title .section-heading .section-title{font-size: 2.1rem; margin-bottom: .67rem;}
 .inner-title .breadcrumb-item.active{color: var(--color-prime-dark)}
 .inner-title nav{padding-bottom: 4rem; border-bottom: 1px solid #e0e0e0}
-
+li, td {
+    color: #666;
+}
 section.top-section{padding-top: 4rem}
 
 
@@ -51,7 +53,7 @@ section.top-section{padding-top: 4rem}
 /* ================= About Us Overview start-UI14041994 ================== */
 .value-and-strength .row{margin-bottom:1.67rem;align-items: end;}
 .value-and-strength p{color: var(--color-66);line-height: 1.8; font-weight: normal;}
-.value-and-strength .value_stleft p{padding-right: 3rem;}
+.value-and-strength .value_stleft p{padding-right: 3rem;    margin-bottom: 5rem;}
 .value-and-strength .value_stleft ul{display: grid;grid-template-columns: repeat(2, 1fr);grid-gap: .84rem;}
 .counter_wrap{background: var(--yellow_bg);padding:2.89rem;display: flex;justify-content: center;flex-direction: column;align-items: center;width: 100%;height: 100%;}
 .counter_wrap.stats span[data-count]{color: var(--color28);font-weight: 400;}
@@ -238,7 +240,9 @@ section.top-section{padding-top: 4rem}
 .event-photos-slider {padding-bottom: 3rem}
 .related-news{ margin-top: 0}
 
-
+.faculty-details li {
+    font-size: max(13px, .89rem);
+}
 /*==================== press-release =====================*/
 .press-releases {padding-top: 3rem; position: relative; isolation: isolate;}
 .press-releases::before {content:''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-height: 719px; background-color: var(--color-prime-dark); z-index: -1;}
@@ -652,7 +656,7 @@ body .lightbox .lb-data .lb-caption{color: #232323; font-size: 1.1rem; padding-b
 .medical-left .stats span.desc { font-size: 1.8rem;}
 .medical-botm{margin-bottom:0px;}
 .medical-botm h4 span{font-weight: 700;text-align:center;display:block;    background: #fff;width: 30%;margin: 0px auto;}
-.medical-botm h4{ background-color:#fff;  margin-bottom: 50px; position: relative;z-index:9;margin-bottom:80px;}
+.medical-botm h4{ background-color:#fff;  margin-bottom: 50px; position: relative;z-index:0;margin-bottom:80px;}
 .medical-botm h4:before {content: "";position: absolute;right: 0;top: 50%;background-color: #DDDDDD;width: 100%;height: 1px;z-index: -9;}
 .emergency-num-detail{background-color:#DDEBF1;padding:40px 50px;display: flex;flex-wrap: wrap;align-items: top;}
 .emergency-num-detail figure{margin-bottom:0;}
@@ -703,7 +707,7 @@ body .lightbox .lb-data .lb-caption{color: #232323; font-size: 1.1rem; padding-b
 .library-infrastructure.engineering .row{align-items:center;}
 .list-unstyled.custom-bullets.bullet-yellow.flex-list2{display:flex;flex-wrap:wrap;position:relative;margin-bottom:90px;}
 .list-unstyled.custom-bullets.bullet-yellow.flex-list2:before{content:"";position:absolute;left:0;right:0;height:1px; width:100%;background:#DBDBDB;bottom:-40px;}
-.list-unstyled.custom-bullets.bullet-yellow.flex-list2 li{width:33%;margin-bottom:40px}
+.list-unstyled.custom-bullets.bullet-yellow.flex-list2 li{width:33.3%;margin-bottom:40px}
 .img-h img{min-height:700px;object-fit:cover;margin-bottom:60px;}
 .engineering-facilities .row { --bs-gutter-x: 5.5rem;}
 
@@ -828,8 +832,9 @@ body .lightbox .lb-data .lb-caption{color: #232323; font-size: 1.1rem; padding-b
 
 .kusumraj-library.other-facilities-tabing {margin-top:80px;}
 .kusumright1.other{padding-left:1rem;}
-.facility-content.other h4{margin-bottom:20px;margin-top:40px;}
+.facility-content.other h4{margin-bottom:1rem;margin-top:00px;}
 .facility-content.other p{color:#fff;margin-bottom:10px;}
+.facility-content.other li{color:#fff;}
 .facility-content.other{padding-left:0;}
 .pdt-50{padding-top:50px;}
 .pdb-50{padding-bottom:50px;}
@@ -850,8 +855,8 @@ ul.list-unstyled.custom-bullets.bullet-yellow.flex-double {display:flex; flex-wr
 .kusumraj-library.other-facilities-tabing.bg-white #kusumrajTab button { color: #2c2c2c; font-weight: 400;font-size:18px;}
 .kusumraj-library.other-facilities-tabing.bg-white{margin-top:0;}
 .kusumraj-library.other-facilities-tabing.bg-white #kusumrajTab button.active { border-bottom: 2px solid var(--color-yellow);}
-.accordion-flush.bg-dark-accordian .accordion-item .accordion-button { border-radius: 0;background: #1f4655; margin-bottom: 10px; color: #fff;}
-.accordion-flush.bg-dark-accordian .accordion-item .accordion-button[aria-expanded="true"] { padding: 0.7rem 1rem;  color: var(--color-yellow);}
+.accordion-flush.bg-dark-accordian .accordion-item .accordion-button { border-radius: 0;background: #1f4655; margin-bottom:0px; color: #fff;line-height: 1.4;}
+.accordion-flush.bg-dark-accordian .accordion-item .accordion-button[aria-expanded="true"] {color: var(--color-yellow);}
 .accordion-flush.bg-dark-accordian .accordion-item .accordion-button::after {
     flex-shrink: 0;
     width: 1.25rem;
@@ -863,16 +868,30 @@ ul.list-unstyled.custom-bullets.bullet-yellow.flex-double {display:flex; flex-wr
     background-size: 1.25rem;
     transition: transform .2s ease-in-out;
 }
-.accordion-flush.bg-dark-accordian .accordion-item .accordion-button::after {
-    filter: invert(1);
-}
+.accordion-flush.bg-dark-accordian .accordion-item .accordion-button::after {filter: invert(1);}
 .kusumraj-table.career-counseling.madical{padding:100px 0 40px;}
 .facility-content.hostel ul{   --column: 3;}
 .karmyogi-awards.visit .workshop3{margin-bottom:50px;}
 .course_listing {margin-top: 3rem;}
-
-
-
+.tech-camp {margin-top: 5rem;}
+.tech-camp-right {padding: 0 2rem;}
+.overview.education{padding-bottom:80px;}
+.plant-nursery {margin-top: 3rem;}
+.tech-camp-right ul ul {margin-top: 1rem;}
+.gymkhana-bottom ul li, hostal.gymkhana ul.custom-bullets li{  margin-bottom: 0.5rem;}
+.upcoming-img .content{max-width: max(420px, 80%);margin-top: -5rem;padding: 2rem 2.5rem; background: var(--color-light);position: relative;}
+.upcoming-img { margin-top: 4rem;}
+.quad-torc{padding-bottom:0;}
+.contact-us .btn:hover {color: #fff;}
+.suggestion-box.contact-us .row {max-width: 75%;margin: 0 auto;}
+.thankyou {margin: 5rem 0;}
+.apply.tankyou_btn a {padding: 1rem;background:#063142;display:inline-block;margin-top:2rem;color:#fff;border-radius: 3px;transition:0.5s ease all;}
+.apply.tankyou_btn a:hover {background: #fdb813;color: #000;}
+.green-gym1 {margin-bottom: 2rem;}
+.play-gym {margin-top: 2rem;}
+.medical-health li {color: #fff;}
+.facility-content.other {padding-left: 0;margin: 2rem 0;}
+.accordion-item:first-of-type,.accordion-item:last-of-type,.accordion-item:last-of-type .accordion-button.collapsed,.accordion-item:first-of-type .accordion-button {border-radius: 0rem;}
 
 @media (max-width: 1399px){
 .top-section.training-facilities .col-lg-4, .training-mid .col-lg-4, .training-botm .col-lg-4 {width: 32.333333%;}

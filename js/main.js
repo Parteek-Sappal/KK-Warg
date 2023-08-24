@@ -264,32 +264,45 @@ $(document).ready(function(){
         }
     });
 
-    var aboutovSwiper = new Swiper(".about_overviw_slider", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: true,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: true,
+
+ 
+
+$('.kala_academy_slider').owlCarousel({
+    loop:true,
+    nav:false,
+	autoplay:true,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
         },
-        speed: 1200,
-        breakpoints:{
-            640:{
-                slidesPerView: 1,
-            },
-            992:{
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            1350:{
-                slidesPerView:1,
-                spaceBetween: 20,
-            }
+        600:{
+            items:1
         },
-        pagination: {
-            el: ".swiper-pagination",
-          },
-    });
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('.kala_academy_slider2').owlCarousel({
+    loop:true,
+    nav:false,
+	autoplay:true,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
 
 
     // footer navigation

@@ -122,7 +122,6 @@ public partial class usercontrols_mainmenu : System.Web.UI.UserControl
                 submenu.Visible = false;
             }
         }
-
     }
     protected void rptinner_ItemDataBound(object sender, RepeaterItemEventArgs e)
     {
@@ -165,6 +164,18 @@ public partial class usercontrols_mainmenu : System.Web.UI.UserControl
                 {
                     submenu2.Attributes.Add("class", "submenu level2 admission-menu");
                 }
+				
+				if (Conversion.Val(litpageid.Text) == 32)
+                {
+                    submenu2.Attributes.Add("class", "submenu level2 admission-menu");
+                }
+				
+				if (Conversion.Val(litpageid.Text) == 39)
+                {
+                    submenu2.Attributes.Add("class", "submenu level2 admission-menu");
+                }
+				
+				
             }
         }
     }

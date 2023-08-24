@@ -472,7 +472,7 @@ figure.img-fit img{height: 100%; width: 100%; object-fit: cover;}
   .happening .nav-tabs{justify-content: flex-start;}
   .home-testimonials .testimonials-content{margin-top: 0; height: 100%;}
   .home-testimonials .testimonials-content::after{right: -2rem; width: calc(25% + 1rem);}
-  .home-testimonials .swiper :is(.swiper-button-prev.swiper-button-bottom, .swiper-button-next.swiper-button-bottom){left:25%; bottom: .3rem}
+  .home-testimonials .swiper :is(.swiper-button-prev.swiper-button-bottom, .swiper-button-next.swiper-button-bottom){left:25%; bottom: 0.5rem}
   .home-testimonials .testimonials-content::before, .home-testimonials .testimonials-content::after{border-color: #c6c6c6;}
   .home-testimonials .swiper-slide{padding-top: 2rem; padding-bottom: 1rem;}
   .placement .section-heading{margin-bottom: 1rem;}

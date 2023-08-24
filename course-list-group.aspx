@@ -13,7 +13,7 @@
         <div class="container">
             <asp:Repeater ID="rptcoursecms" runat="server">
             <ItemTemplate>
-                <blockquote><%#Eval("smalldesc")%></blockquote>
+                <blockquote><%#Server.HtmlDecode(Eval("smalldesc").ToString()).Replace("<p>","").Replace("</p>","")%></blockquote>
                 <figure>
                     <img src="/uploads/banner/<%#Eval("uploadbanner") %>" class="img-fluid" alt="course-list-bnr">
                 </figure>
@@ -24,10 +24,10 @@
             <ContentTemplate>
             <div class="course-select-panel">
                 <div class="row gy-4 gy-lg-0">
-                    <div class="col-md-6 ">
+                    <div class="col-lg-6">
                          <asp:DropDownList ID="dpid" class="form-select" runat="server" OnSelectedIndexChanged="dpid_OnSelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 d-none d-lg-block">
                         <asp:DropDownList ID="courselevel_master" class="form-select" runat="server" OnSelectedIndexChanged="courselevel_master_OnSelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
                     </div>
                 </div>
@@ -45,6 +45,7 @@
                     </div>
                 </div>
             </div>
+            <div id="course_listing"></div>
             <div class="course_listing">
             <asp:Repeater ID="rptcourse" runat="server" OnItemDataBound="rptcourse_OnItemDataBound">
             <ItemTemplate>

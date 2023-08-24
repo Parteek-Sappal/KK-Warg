@@ -56,10 +56,10 @@ public partial class index : System.Web.UI.Page
         clsm.repeaterDatashow_Parameter(rptnotice, "select eventsid,eventstitle,tagline,uploadevents,uploadfile,colorcode,eventsdate from events where ntypeid=10 and status=1 order by displayorder", parameters);
 
         parameters.Clear();
-        clsm.repeaterDatashow_Parameter(rptfacilities, "select pageid,pagename,linkname,pageurl,rewriteurl from pagemaster where pagestatus=1 and parentid=22 order by displayorder", parameters);
+        clsm.repeaterDatashow_Parameter(rptfacilities, "select top 4 pageid,pagename,linkname,pageurl,rewriteurl from pagemaster where pagestatus=1 and parentid=22 order by displayorder", parameters);
 
         parameters.Clear();
-        clsm.repeaterDatashow_Parameter(rptfacilitydetail, "select pageid,pagename,linkname,pageurl,smalldesc,uploadbanner,rewriteurl from pagemaster where pagestatus=1 and parentid=22 order by displayorder", parameters);
+        clsm.repeaterDatashow_Parameter(rptfacilitydetail, "select top 4  pageid,pagename,linkname,pageurl,smalldesc,uploadbanner,rewriteurl from pagemaster where pagestatus=1 and parentid=22 order by displayorder", parameters);
 
         parameters.Clear();
         clsm.repeaterDatashow_Parameter(rptplacement, "select spid,name,course,session,company,photo,branch,shortdesc from Placedstudent where status=1 and showonhome=1 order by displayorder", parameters);
@@ -228,19 +228,19 @@ public partial class index : System.Web.UI.Page
             Literal litrewriteurl = (Literal)e.Item.FindControl("litrewriteurl");
             HtmlContainerControl panel1 = (HtmlContainerControl)e.Item.FindControl("panel1");
             HtmlContainerControl panel2 = (HtmlContainerControl)e.Item.FindControl("panel2");
-
+            HtmlAnchor ank = (HtmlAnchor)e.Item.FindControl("ank");
 
             if (e.Item.ItemIndex == 0)
             {
                 panel1.Attributes.Add("class", "tab-pane active facility-tab" + (e.Item.ItemIndex + 1));
-                panel2.Attributes.Add("class", "panel-collapse collapse show in facility-collapse" + (e.Item.ItemIndex + 1));
+                panel2.Attributes.Add("class", "panel-collapse collapse show in facility-collapse" + (e.Item.ItemIndex + 1));                
             }
             else
             {
                 panel1.Attributes.Add("class", "tab-pane facility-tab" + (e.Item.ItemIndex + 1));
                 panel2.Attributes.Add("class", "panel-collapse collapse in facility-collapse" + (e.Item.ItemIndex + 1));
             }
-           
+            ank.Attributes.Add("data-bs-target", ".facility-collapse" + (e.Item.ItemIndex + 1));
         }
     }
 

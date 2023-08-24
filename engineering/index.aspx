@@ -13,6 +13,7 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="LnGOuTMt7ojCrCxhoCcpzhK9K5WOn2a_eBSXeFsMBPc" />
     <title></title>
     <uc5:seosection ID="seosection1" runat="server" />
     <link rel="stylesheet" type="text/css" href="/engineering/css/bootstrap.min.css">
@@ -51,10 +52,29 @@
         }
     }
 </script>
+<!-- Google Tag Manager -->
 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-T438RXXF');</script>
+
+<!-- End Google Tag Manager -->
 
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T438RXXF"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
 <form id="form1" runat="server">
    <asp:ScriptManager ID="ScriptManager1" runat="server" ScriptMode="Release">
         <CompositeScript>
@@ -123,7 +143,7 @@
                                 <asp:Literal ID="litlevelid" runat="server" Visible="false" Text='<%#Eval("levelid") %>'></asp:Literal>
                                 <div class="col-lg-4">
                                     <div id ="divcourse" runat="server" class="academics-bachelor-thumb blue_border">
-                                        <a id="ank" runat="server"><h4><%#Eval("levelname")%></h4></a>
+                                        <a id="ank" runat="server"><h4><%#Eval("levelname")%><span class="btn btn-circle btn-prime"><img class="img-fluid" src="/images/right-angle-white.svg"></span></h4></a>
                                         <p><%#Server.HtmlDecode(Eval("details").ToString()) %></p>
                                     </div>
                                 </div>
@@ -131,7 +151,7 @@
                                 </asp:Repeater>
 
                                <div class="col-lg-4">
-                                    <div class="academics-bachelor-thumb yellow_border">
+                                    <div class="academics-bachelor-thumb yellow_border other-p">
                                         <h4>Other Programs</h4>
                                         <ul class="list-unstyled">
                                         <asp:Repeater ID="rptothercourses" runat="server" OnItemDataBound="rptothercourses_OnItemDataBound">
@@ -247,7 +267,7 @@
         <asp:Literal ID="litrec" runat="server"></asp:Literal>
         </section>
        <asp:Literal ID="litabouthome" runat="server"></asp:Literal>
-            <section class="happening pt-0" id="panelhappping" runat="server" visible="true">
+            <section class="happening" id="panelhappping" runat="server" visible="true">
             <div class="container">
                 <div class="section-heading">
                     <span class="heading-top">Happenings</span>

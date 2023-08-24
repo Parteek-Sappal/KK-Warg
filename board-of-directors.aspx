@@ -14,7 +14,7 @@
 					<div class="faculties_cont">
 						<span><%#Eval("name")%></span> <abbr><%#Eval("designation")%></abbr></div>
 				</div>
-				<!--div class="modal facultymodal" id="facultyDetails1<%#Eval("teamid")%>">
+				<div class="modal facultymodal" id="facultyDetails1<%#Eval("teamid")%>">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<div class="modal-content">
 							<div class="modal-header">
@@ -43,7 +43,7 @@
 							</div>
 						</div>
 					</div>
-				</div-->
+				</div>
 			</div>
 
           
